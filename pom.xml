@@ -25,6 +25,7 @@
 
     <modules>
         <module>lkf-cloud-gateway</module>
+        <module>lkf-cloud-eureka</module>
     </modules>
 
     <dependencyManagement>
