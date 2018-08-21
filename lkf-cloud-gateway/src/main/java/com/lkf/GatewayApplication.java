@@ -12,8 +12,6 @@ import static org.springframework.web.reactive.function.server.RequestPredicates
  */
 @SpringBootApplication
 public class GatewayApplication {
-
-
     public static void main(String[] args) {
         SpringApplication.run(GatewayApplication.class, args);
     }
