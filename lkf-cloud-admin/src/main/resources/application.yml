@@ -1,44 +1,56 @@
-spring:
-  application:
-    name: spring-boot-admin-sample-eureka
-  profiles:
-    active:
-    - secure
-
-
-# tag::configuration-eureka[]
-eureka:   #<1>
-  instance:
-    leaseRenewalIntervalInSeconds: 10
-    health-check-url-path: /actuator/health
-  client:
-    registryFetchIntervalSeconds: 5
-    serviceUrl:
-      defaultZone: ${EUREKA_SERVICE_URL:http://localhost:8888}/eureka/
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"  #<2>
-  endpoint:
-    health:
-      show-details: ALWAYS
-# end::configuration-eureka[]
-
----
-spring:
-  profiles: insecure
-
----
-spring:
-  profiles: secure
-  security:
-    user:
-      name: "user"
-      password: "password"
-eureka:
-  instance:
-    metadata-map:
-      user.name: "user"         #These two are needed so that the server
-      user.password: "password" #can access the protected client endpoints
+#spring:
+#  application:
+#    name: lkf-admin-eureka
+#  profiles:
+#    active:
+#    - secure
+#
+#server:
+#  port: 1234
+#
+#
+## tag::configuration-eureka[]
+#eureka:   #<1>
+#  instance:
+#    leaseRenewalIntervalInSeconds: 10
+#    health-check-url-path: /actuator/health
+#    instance-id: ${spring.application.name}/${eureka.instance.hostname}:${server.port}
+#    prefer-ip-address: true
+#    hostname: ${spring.cloud.client.ip-address}
+#
+#  client:
+#    registryFetchIntervalSeconds: 5
+#    serviceUrl:
+#      defaultZone: ${EUREKA_SERVICE_URL:http://192.168.12.217:8890}/lb/eureka/
+#
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: "*"  #<2>
+#  endpoint:
+#    health:
+#      show-details: ALWAYS
+#
+## end::configuration-eureka[]
+#
+#---
+#spring:
+#  profiles: insecure
+#
+#---
+#spring:
+#  profiles: secure
+#  security:
+#    user:
+#      name: "user"
+#      password: "password"
+#eureka:
+#  instance:
+#    metadata-map:
+#      user.name: "user"         #These two are needed so that the server
+#      user.password: "password" #can access the protected client endpoints
+#
+#
+#
+#

@@ -23,7 +23,7 @@ public class SpringBootAdminApplication {
         SpringApplication.run(SpringBootAdminApplication.class, args);
     }
 
-    @Order(1)
+
     @Profile("insecure")
     @Configuration
     public static class SecurityPermitAllConfig extends WebSecurityConfigurerAdapter {
@@ -45,7 +45,7 @@ public class SpringBootAdminApplication {
         }
     }
 
-    @Order(1)
+
     @Profile("secure")
     @Configuration
     public static class SecuritySecureConfig extends WebSecurityConfigurerAdapter {
