@@ -23,6 +23,8 @@
         <spring-cloud.version>Finchley.SR1</spring-cloud.version>
         <project.log.prefix>/data/logs/loongboss</project.log.prefix>
         <project.log.level>debug</project.log.level>
+        <project.env.label>dev</project.env.label>
+        <project.config.uri>http://localhost:1010/</project.config.uri>
     </properties>
 
     <modules>
