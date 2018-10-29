@@ -8,9 +8,6 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
-    <groupId>com.lkf</groupId>
     <artifactId>lkf-cloud-config-mongo</artifactId>
-
-
+    <packaging>jar</packaging>
 </project>

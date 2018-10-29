@@ -6,9 +6,9 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 
 @SpringBootApplication
 @EnableConfigServer
-public class ConfigApplication {
+public class JdbcConfigApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ConfigApplication.class, args);
+		SpringApplication.run(JdbcConfigApplication.class, args);
 	}
 }
