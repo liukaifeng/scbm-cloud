@@ -1,12 +1,9 @@
 package com.lkf.config.repository;
 
-import com.google.gson.Gson;
-import com.google.gson.JsonObject;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.Field;
 
 import java.io.Serializable;
-import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -63,8 +60,6 @@ public class MongoEnvironment implements Serializable {
         this.profile = profile;
     }
 
-
-
     public int getPriority() {
         return priority;
     }
@@ -96,19 +91,4 @@ public class MongoEnvironment implements Serializable {
     public void setLabel( String label ) {
         this.label = label;
     }
-
-//    public static void main( String[] args ) {
-//        MongoEnvironment mongoEnvironment=new MongoEnvironment();
-//        mongoEnvironment.setApplication("lkf-eureka-client");
-//        mongoEnvironment.setLable("v0.0.1");
-//        mongoEnvironment.setPriority(1);
-//        mongoEnvironment.setProfile("dev");
-//        Map<String,String> map=new LinkedHashMap<>();
-//        map.put("eureka.client.serviceUrl.defaultZone","${EUREKA_SERVICE_URL:http://192.168.12.217:8890}/lb/eureka/");
-//        map.put("management.endpoint.conditions.enabled","true");
-//        map.put("eureka.instance.prefer-ip-address","true");
-//        mongoEnvironment.setConf(map);
-//        Gson gson=new Gson();
-//        System.out.println(gson.toJson(mongoEnvironment));
-//    }
 }
