@@ -31,18 +31,25 @@ public class MongoEnvironmentRepository implements EnvironmentRepository, Ordere
 
     @Override
     public Environment findOne( String application, String profile, String label ) {
+        //运行环境
         if (StringUtils.isEmpty(profile)) {
             profile = DEFAULT_PREFIX;
         }
         if (!profile.startsWith(DEFAULT_PREFIX)) {
             profile = DEFAULT_PREFIX + "," + profile;
         }
+        if (StringUtils.isEmpty(label)) {
+            label = DEFAULT_PREFIX;
+        }
+        if (!label.startsWith(DEFAULT_PREFIX)) {
+            label = DEFAULT_PREFIX + "," + profile;
+        }
         //逗号分隔转成数组
         String[] profiles = StringUtils.commaDelimitedListToStringArray(profile);
         //Environment 对象构建
-        Environment environment = new Environment(application, profiles, label, null,
+        Environment environment = new Environment(application, profile, label, null,
                 null);
-        return getConfFromMongodb(application, profiles, label, environment);
+        return getConfFromMongodb(application, profile, label, environment);
     }
 
     @Override
@@ -54,16 +61,16 @@ public class MongoEnvironmentRepository implements EnvironmentRepository, Ordere
      * 从mongodb中查询配置项添加到对象Environment中
      *
      * @param application 应用名称
-     * @param profiles    环境
+     * @param profile    环境
      * @param label       版本
      * @param environment 环境上下文对象
      * @return org.springframework.cloud.config.environment.Environment
      * @author 刘凯峰
      * @date 2018/10/30 14:16
      */
-    private Environment getConfFromMongodb( String application, String[] profiles, String label, Environment environment ) {
+    private Environment getConfFromMongodb( String application, String profile, String label, Environment environment ) {
         //根据应用名称，环境，版本号，查询对应的配置信息
-        MongoEnvironment mongoEnvironment = search(application, profiles, label);
+        MongoEnvironment mongoEnvironment = search(application, profile, label);
         if (Objects.isNull(mongoEnvironment)) {
             return environment;
         }
@@ -76,7 +83,7 @@ public class MongoEnvironmentRepository implements EnvironmentRepository, Ordere
         if (Objects.nonNull(mongoEnvironment.getConfRef())) {
             mongoEnvironment.getConfRef().forEach(confRef -> {
                 //查询引用配置信息
-                MongoEnvironment confRefEnvironment = search(confRef, profiles, label);
+                MongoEnvironment confRefEnvironment = search(confRef, profile, label);
                 if (Objects.nonNull(confRefEnvironment.getConf())) {
                     map.putAll(confRefEnvironment.getConf());
                 }
@@ -90,18 +97,18 @@ public class MongoEnvironmentRepository implements EnvironmentRepository, Ordere
      * 根据应用名称、环境、版本，查询配置信息
      *
      * @param application 应用名称
-     * @param profiles    环境
+     * @param profile   环境
      * @param label       版本
      * @return com.lkf.config.repository.MongoEnvironment
      * @author 刘凯峰
      * @date 2018/10/30 14:11
      */
-    private MongoEnvironment search( String application, String[] profiles, String label ) {
+    private MongoEnvironment search( String application, String profile, String label ) {
         //查询条件拼接
         Query query = new Query();
         query.addCriteria(Criteria.where("application").is(application)
-                .and("profile").in(profiles)
-                .and("label").is(label));
+                .and("profile").in(profile)
+                .and("label").in(label));
         //默认按照优先级降序
         query.with(new Sort(Sort.Direction.DESC, "priority"));
         //请求查询
