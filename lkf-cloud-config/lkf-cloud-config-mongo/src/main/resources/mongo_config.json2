@@ -1,0 +1,120 @@
+/* 1 */
+{
+    "_id" : ObjectId("59b7312cb6737df3d0b0608b"),
+    "label" : "v0.0.1",
+    "application" : "ds-redis",
+    "profile" : "dev",
+    "priority" : 0,
+    "conf" : {
+        "spring.redis.database" : "1",
+        "spring.redis.host" : "192.168.12.202",
+        "spring.redis.port" : "6379",
+        "spring.redis.password" : "",
+        "spring.redis.pool.max-active" : "8",
+        "spring.redis.pool.max-wait" : "1",
+        "spring.redis.pool.max-idle" : "8",
+        "spring.redis.pool.min-idle" : "4",
+        "spring.redis.timeout" : "20000",
+        "cacheExpireSeconds" : "1"
+    }
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("592f177bf2309d47c1b8defd"),
+    "label" : "v0.0.1",
+    "application" : "log",
+    "profile" : "dev",
+    "priority" : 0,
+    "conf" : {
+        "logging.config" : "classpath:config/logback.xml"
+    }
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("5b6d207bbd179f15c9fe0647"),
+    "label" : "v0.0.1",
+    "application" : "dao-mybatis",
+    "profile" : "dev",
+    "priority" : 0,
+    "conf" : {
+        "mybatis.mapper-locations" : "classpath:mapper/*Mapper.xml",
+        "mybatis.type-aliases-package" : "cn.com.tcsl.**.entity",
+        "mybatis.configuration.map-underscore-to-camel-case" : true,
+        "spring.datasource.initialSize" : "10",
+        "spring.datasource.maxActive" : "1000",
+        "spring.datasource.maxWait" : "60000",
+        "spring.datasource.timeBetweenEvictionRunsMillis" : "60000",
+        "spring.datasource.minEvictableIdleTimeMillis" : "300000",
+        "spring.datasource.validationQuery" : "SELECT 1",
+        "spring.datasource.testWhileIdle" : true,
+        "spring.datasource.testOnBorrow" : "false",
+        "spring.datasource.testOnReturn" : "false",
+        "spring.datasource.filters" : "stat",
+        "spring.datasource.logSlowSql" : "true"
+    }
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("5bd7f3f80fbee19c3318b976"),
+    "application" : "lkf-eureka-client",
+    "profile" : "dev",
+    "label" : "v0.0.1",
+    "priority" : 1,
+    "conf" : {
+        "eureka.client.serviceUrl.defaultZone" : "${EUREKA_SERVICE_URL:http://192.168.12.217:8890}/lb/eureka/",
+        "management.endpoint.conditions.enabled" : "true",
+        "eureka.instance.prefer-ip-address" : "true"
+    },
+    "conf-ref" : [
+        "log",
+        "dao-mybatis",
+        "ds-redis"
+    ]
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("5bd7f8c40fbee19c33224df4"),
+    "application" : "lkf-eureka-client",
+    "profile" : "dev",
+    "label" : "v0.0.1",
+    "priority" : 3,
+    "conf" : {
+        "server.port" : "8001",
+        "spring.application.name" : "lkf-eureka-client",
+        "eureka.client.serviceUrl.defaultZone" : "${EUREKA_SERVICE_URL:http://192.168.12.217:8890}/lb/eureka/",
+        "management.endpoint.conditions.enabled" : true,
+        "eureka.instance.prefer-ip-address" : true,
+        "eureka.instance.instanceId" : "${spring.application.name}@${spring.cloud.client.ip-address}@${server.port}",
+        "management.endpoints.web.exposure.include" : "*",
+        "management.endpoint.health.show-details" : "always",
+        "management.endpoint.logfile.enabled" : true,
+        "management.endpoint.auditevents.enabled" : true,
+        "management.endpoint.loggers.enabled" : true,
+        "info.project.name" : "@project.name@",
+        "info.project.version" : "@project.version@"
+    },
+    "conf-ref" : [
+        "log",
+        "dao-mybatis",
+        "ds-redis"
+    ]
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("5b9b64d63d8773ce69fcdfc6"),
+    "label" : "default",
+    "application" : "mq-rabbit",
+    "profile" : "default",
+    "priority" : 0,
+    "conf" : {
+        "spring.rabbitmq.host" : "192.168.12.62",
+        "spring.rabbitmq.port" : "5672",
+        "spring.rabbitmq.username" : "dev",
+        "spring.rabbitmq.password" : "dev"
+    }
+}
