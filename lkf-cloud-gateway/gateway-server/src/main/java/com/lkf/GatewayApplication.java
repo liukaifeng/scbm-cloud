@@ -13,15 +13,13 @@ import org.springframework.web.reactive.function.server.RouterFunction;
 import org.springframework.web.reactive.function.server.RouterFunctions;
 import org.springframework.web.reactive.function.server.ServerResponse;
 
-import static org.springframework.web.reactive.function.server.RequestPredicates.path;
-
 /**
  * @author kaifeng
  */
 @SpringBootApplication
 @EnableEurekaClient
 public class GatewayApplication {
-    public static void main(String[] args) {
+    public static void main( String[] args ) {
         SpringApplication.run(GatewayApplication.class, args);
     }
 
@@ -34,21 +32,12 @@ public class GatewayApplication {
     }
 
     @Bean
-    public RouteLocator customRouteLocator(RouteLocatorBuilder builder) {
+    public RouteLocator customRouteLocator( RouteLocatorBuilder builder ) {
         return builder.routes().route(r -> r.path("/test/custom").uri("http://ww.baidu.com"))
-                .route(r -> r.path("/user/**").uri("lb://user-service"))
+                .route(r -> r.path("/user/**").uri("lb://user-service").filter(new AuthorizeGatewayFilter()))
                 .build();
     }
 
-    @Bean
-    public RouteLocator routeLocator(RouteLocatorBuilder builder) {
-        return builder.routes().route(r ->
-                r.path("/user/list")
 
-                        .uri("http://localhost:8077/api/user/list")
-                        .filters(new AuthorizeGatewayFilter())
-                        .id("user-service"))
-                .build();
-    }
 
 }
