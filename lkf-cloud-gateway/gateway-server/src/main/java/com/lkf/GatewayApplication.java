@@ -1,5 +1,6 @@
 package com.lkf;
 
+import com.lkf.filter.AuthorizeGatewayFilter;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.gateway.route.RouteLocator;
@@ -37,7 +38,17 @@ public class GatewayApplication {
         return builder.routes().route(r -> r.path("/test/custom").uri("http://ww.baidu.com"))
                 .route(r -> r.path("/user/**").uri("lb://user-service"))
                 .build();
+    }
 
+    @Bean
+    public RouteLocator routeLocator(RouteLocatorBuilder builder) {
+        return builder.routes().route(r ->
+                r.path("/user/list")
+
+                        .uri("http://localhost:8077/api/user/list")
+                        .filters(new AuthorizeGatewayFilter())
+                        .id("user-service"))
+                .build();
     }
 
 }
