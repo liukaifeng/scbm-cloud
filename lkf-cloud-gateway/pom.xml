@@ -5,7 +5,7 @@
 
     <artifactId>lkf-cloud-gateway</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
     <name>lkf-cloud-gateway</name>
     <description>Demo project for Spring Boot</description>
@@ -17,28 +17,11 @@
         <relativePath>../pom.xml</relativePath> <!-- lookup parent from repository -->
     </parent>
 
+    <modules>
+        <module>gateway-server</module>
+        <module>user-service</module>
+    </modules>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-gateway</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-netflix-eureka-client</artifactId>
-        </dependency>
-    </dependencies>
 
 
     <build>
