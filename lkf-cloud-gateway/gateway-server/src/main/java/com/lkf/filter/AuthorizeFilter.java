@@ -21,12 +21,12 @@ import reactor.core.publisher.Mono;
  * @author 刘凯峰
  * @date 2018-11-15 19-17
  */
-@Component
+//@Component
 public class AuthorizeFilter implements GlobalFilter, Ordered {
     private static final String AUTHORIZE_TOKEN = "token";
 
 
-    @Autowired
+//    @Autowired
     private StringRedisTemplate stringRedisTemplate;
 
     @Override
