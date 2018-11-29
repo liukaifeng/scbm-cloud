@@ -1,4 +1,4 @@
-package com.lkf.filter;
+package com.lkf.gateway.filter;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.gateway.filter.GatewayFilterChain;

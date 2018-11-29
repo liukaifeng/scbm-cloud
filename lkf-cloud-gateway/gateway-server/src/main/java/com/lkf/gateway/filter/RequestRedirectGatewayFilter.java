@@ -1,6 +1,5 @@
-package com.lkf.filter;
+package com.lkf.gateway.filter;
 
-import org.springframework.cloud.gateway.filter.GatewayFilter;
 import org.springframework.cloud.gateway.filter.GatewayFilterChain;
 import org.springframework.cloud.gateway.filter.GlobalFilter;
 import org.springframework.cloud.gateway.filter.LoadBalancerClientFilter;
@@ -35,7 +34,7 @@ public class RequestRedirectGatewayFilter implements GlobalFilter, Ordered {
         Object uriObj = exchange.getAttributes().get(GATEWAY_REQUEST_URL_ATTR);
         if (uriObj != null) {
             URI uri = (URI) uriObj;
-            uri = this.upgradeConnection(uri, "http");
+            uri = this.upgradeConnection(URI.create("http://192.168.12.150:8002/user/instances"), "http");
             exchange.getAttributes().put(GATEWAY_REQUEST_URL_ATTR, uri);
         }
         return chain.filter(exchange);

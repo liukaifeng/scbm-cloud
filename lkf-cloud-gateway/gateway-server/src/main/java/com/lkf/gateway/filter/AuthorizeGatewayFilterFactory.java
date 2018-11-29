@@ -1,4 +1,4 @@
-package com.lkf.filter;
+package com.lkf.gateway.filter;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
