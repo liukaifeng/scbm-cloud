@@ -1,4 +1,4 @@
-package com.lkf.config.repository;
+package com.lkf.server.config.repository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;

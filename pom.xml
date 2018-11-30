@@ -33,6 +33,7 @@
         <module>lkf-cloud-admin</module>
         <module>lkf-eureka-client</module>
         <module>lkf-cloud-config</module>
+        <module>lkf-cloud-openfegin</module>
     </modules>
 
     <dependencyManagement>

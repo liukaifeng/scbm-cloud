@@ -1,4 +1,4 @@
-package com.lkf.config.repository;
+package com.lkf.server.config.repository;
 
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.Field;

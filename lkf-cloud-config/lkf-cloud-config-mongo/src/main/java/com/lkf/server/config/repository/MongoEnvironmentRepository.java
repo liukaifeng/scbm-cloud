@@ -1,4 +1,4 @@
-package com.lkf.config.repository;
+package com.lkf.server.config.repository;
 
 import org.springframework.cloud.config.environment.Environment;
 import org.springframework.cloud.config.environment.PropertySource;
