@@ -13,7 +13,7 @@ import org.springframework.context.annotation.PropertySource;
  */
 
 @SpringBootApplication
-@EnableEurekaClient
+//@EnableEurekaClient
 @ComponentScan(basePackages = "com.lkf")
 @PropertySource("classpath:config/application.properties")
 @EnableFeignClients(basePackages = "com.lkf")

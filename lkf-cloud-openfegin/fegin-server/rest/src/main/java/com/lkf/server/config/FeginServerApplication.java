@@ -17,7 +17,6 @@ import org.springframework.context.annotation.PropertySource;
 @PropertySource(value = "classpath:config/application.properties")
 @EnableFeignClients(basePackages = "com.lkf")
 public class FeginServerApplication {
-
     public static void main( String[] args ) {
         SpringApplication.run(FeginServerApplication.class, args);
     }

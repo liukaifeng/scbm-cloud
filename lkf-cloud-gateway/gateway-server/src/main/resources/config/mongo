@@ -1,0 +1,49 @@
+/* 1 */
+{
+    "_id" : ObjectId("5bff4e9c12cc87ac0f888ddc"),
+    "route_id" : "user-service",
+    "predicates" : [
+        {
+            "name" : "Path",
+            "args" : {
+                "pattern" : "/user/**"
+            }
+        }
+    ],
+    "filters" : [
+        {
+            "name" : "RewritePath",
+            "args" : {
+                "regexp" : "/user-service/(?<remaining>.*)",
+                "replacement" : "/${remaining}"
+            }
+        }
+    ],
+    "uri" : "lb://user-service",
+    "order" : 0
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("5bffa15d12cc87ac0fb62b04"),
+    "route_id" : "compute-platform",
+    "predicates" : [
+        {
+            "name" : "Path",
+            "args" : {
+                "pattern" : "/search/**"
+            }
+        }
+    ],
+    "filters" : [
+        {
+            "name" : "RewritePath",
+            "args" : {
+                "regexp" : "/compute-platform/(?<remaining>.*)",
+                "replacement" : "/${remaining}"
+            }
+        }
+    ],
+    "uri" : "lb://compute-platform",
+    "order" : 0
+}

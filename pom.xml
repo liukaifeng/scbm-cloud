@@ -34,6 +34,8 @@
         <module>lkf-eureka-client</module>
         <module>lkf-cloud-config</module>
         <module>lkf-cloud-openfegin</module>
+        <module>lkf-cloud-okhttp</module>
+        <module>lkf-cloud-service</module>
     </modules>
 
     <dependencyManagement>

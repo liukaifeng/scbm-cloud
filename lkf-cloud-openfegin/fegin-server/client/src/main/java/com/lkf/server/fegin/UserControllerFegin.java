@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * @author 刘凯峰
  * @date 2018-11-30 10-22
  */
-@FeignClient("fegin-server")
+@FeignClient(value = "fegin-server",url = "${server.url}")
 @RequestMapping(value = "/api/user")
 public interface UserControllerFegin {
     @RequestMapping(path = "/{userName}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
