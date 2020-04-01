@@ -7,18 +7,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="lkf-cloud-config-mongo" />
-        <module name="webflux-web" />
-        <module name="lkf-eureka-client" />
-        <module name="fegin-server-rest" />
-        <module name="lkf-cloud-eureka" />
-        <module name="gateway-server" />
         <module name="lkf-cloud-okhttp" />
-        <module name="fegin-client" />
+        <module name="lkf-cloud-eureka" />
+        <module name="lkf-eureka-client" />
         <module name="lkf-cloud-config-jdbc" />
+        <module name="lkf-cloud-config-git" />
+        <module name="gateway-server" />
+        <module name="webflux-web" />
+        <module name="fegin-client" />
+        <module name="webflux-mongo" />
+        <module name="fegin-server-rest" />
+        <module name="fegin-server-client" />
         <module name="user-service" />
         <module name="lkf-cloud-admin" />
-        <module name="lkf-cloud-config-git" />
-        <module name="fegin-server-client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -40,6 +41,7 @@
       <module name="lkf-cloud-webflux" target="1.5" />
       <module name="lkf-eureka-client" target="1.5" />
       <module name="user-service" target="1.5" />
+      <module name="webflux-mongo" target="1.5" />
       <module name="webflux-web" target="1.5" />
     </bytecodeTargetLevel>
   </component>

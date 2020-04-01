@@ -20,6 +20,7 @@
       <module fileurl="file://$PROJECT_DIR$/lkf-cloud-webflux/lkf-cloud-webflux.iml" filepath="$PROJECT_DIR$/lkf-cloud-webflux/lkf-cloud-webflux.iml" />
       <module fileurl="file://$PROJECT_DIR$/lkf-eureka-client/lkf-eureka-client.iml" filepath="$PROJECT_DIR$/lkf-eureka-client/lkf-eureka-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/lkf-cloud-gateway/user-service/user-service.iml" filepath="$PROJECT_DIR$/lkf-cloud-gateway/user-service/user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/webflux-mongo.iml" filepath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/webflux-mongo.iml" />
       <module fileurl="file://$PROJECT_DIR$/lkf-cloud-webflux/webflux-web/webflux-web.iml" filepath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-web/webflux-web.iml" />
     </modules>
   </component>
