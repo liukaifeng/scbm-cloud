@@ -2,18 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30b36593-f59a-48a5-bcda-293351c86932" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-web/src/main/java/com/lkf/controller/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-web/src/main/java/com/lkf/controller/LogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-web/src/main/resources/log4j2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/src/main/java/com/lkf/config/MongoDbFactoryConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/src/main/java/com/lkf/config/MongoSettingsProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/src/main/java/com/lkf/config/ReactiveMongoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/src/main/java/com/lkf/controller/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/src/main/java/com/lkf/controller/LogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-client/src/main/resources/config/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-client/src/main/resources/config/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lkf-cloud-webflux/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-webflux/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-web/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +63,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534840096882" />
     <property name="jdk.selected.JAVA_MODULE" value="jdk1.8.0_161" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../github" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -71,6 +72,9 @@
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.lkf.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\workspace\github\lkf-cloud\lkf-cloud-webflux\webflux-mongo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -166,6 +170,7 @@
       <workItem from="1585705612857" duration="267000" />
       <workItem from="1585705933850" duration="8860000" />
       <workItem from="1585726582884" duration="2051000" />
+      <workItem from="1585729958537" duration="5999000" />
     </task>
     <task id="LOCAL-00001" summary="spring boot、spring cloud 版本升级；新增 webflux；">
       <created>1585713293219</created>
