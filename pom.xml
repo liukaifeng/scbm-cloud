@@ -29,6 +29,7 @@
         <module>lkf-cloud-openfegin</module>
         <module>lkf-cloud-okhttp</module>
         <module>lkf-cloud-webflux</module>
+        <module>lkf-cloud-spring</module>
     </modules>
 
     <dependencies>
