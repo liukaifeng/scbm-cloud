@@ -1,5 +1,6 @@
 package com.lkf.config;
 
+import com.google.gson.JsonObject;
 import com.mongodb.ConnectionString;
 import com.mongodb.MongoClientOptions;
 import com.mongodb.MongoClientSettings;
@@ -66,15 +67,16 @@ public class MongoDbFactoryConfig {
             ServerAddress serverAddress = new ServerAddress(host, port);
             serverAddresses.add(serverAddress);
         }
+        //mongo 客户端设置构造器对象
         MongoClientSettings.Builder mongoClientSettingBuilder = MongoClientSettings.builder();
 
-        ConnectionPoolSettings.Builder connPoolBuilder = ConnectionPoolSettings.builder();
-        connPoolBuilder.maxWaitTime(properties.getMaxWaitTime(), TimeUnit.MICROSECONDS);
-        connPoolBuilder.build();
-        ConnectionString connectionString = new ConnectionString("连接串");
 
-        mongoClientSettingBuilder.applyConnectionString(connectionString);
-        MongoClient mongoClient = MongoClients.create(connectionString);
+        //mongo 连接池构造器
+        ConnectionPoolSettings.Builder connectionPoolSettingBuilder = ConnectionPoolSettings.builder();
+        connectionPoolSettingBuilder.maxWaitTime(properties.getMaxWaitTime(), TimeUnit.MICROSECONDS);
+        connectionPoolSettingBuilder.minSize(1);
+
+        MongoClient mongoClient = MongoClients.create(mongoClientSettingBuilder.build());
         // 创建MongoDbFactory
         return new SimpleReactiveMongoDatabaseFactory(mongoClient, properties.getDatabase());
     }
