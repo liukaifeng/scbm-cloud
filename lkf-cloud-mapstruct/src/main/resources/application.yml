@@ -1,5 +1,12 @@
 server:
   port: 8081
+  http2:
+    enabled: true
+  undertow:
+    io-threads: 16
+    worker-threads: 256
+    buffer-size: 1024
+    direct-buffers: true
 spring:
   #数据库连接配置
   datasource:
@@ -16,3 +23,6 @@ mybatis:
   #开启驼峰命名
   configuration:
     map-underscore-to-camel-case: true
+logging:
+  config: classpath:log4j2.xml
+debug: true
