@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.lkf.validation.dao.EmployeesDao">
+    <!--查询雇员信息-->
+    <select id="selectEmployees" parameterType="employeesPO" resultType="employeesPO">
+        SELECT emp_no,birth_date,first_name,last_name,gender,hire_date FROM employees
+        WHERE 1=1
+        <if test="empNo>0">
+            AND emp_no=${empNo}
+        </if>
+        <if test="gender!=null and gender!=''">
+            AND gender=${gender}
+        </if>
+        <if test="hireDate!=null and hireDate!=''">
+            AND hire_date=${hireDate}
+        </if>
+        <if test="birthDate!=null and birthDate!=''">
+            AND birth_date=${birthDate}
+        </if>
+    </select>
+</mapper>
