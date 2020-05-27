@@ -31,6 +31,7 @@
         <module>lkf-cloud-webflux</module>
         <module>lkf-cloud-spring</module>
         <module>lkf-cloud-mapstruct</module>
+        <module>lkf-cloud-validation</module>
     </modules>
 
     <dependencies>
