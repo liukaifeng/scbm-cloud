@@ -1,4 +1,4 @@
-package com.lkf.controller;
+package com.scbm.controller;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.RestController;

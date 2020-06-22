@@ -1,4 +1,4 @@
-package com.lkf.config;
+package com.scbm.config;
 
 
 import com.mongodb.reactivestreams.client.MongoClient;

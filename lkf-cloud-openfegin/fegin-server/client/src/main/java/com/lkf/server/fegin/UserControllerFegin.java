@@ -1,4 +1,4 @@
-package com.lkf.server.fegin;
+package com.scbm.server.fegin;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.MediaType;

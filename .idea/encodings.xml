@@ -11,12 +11,17 @@
     <file url="file://$PROJECT_DIR$/lkf-cloud-gateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lkf-cloud-gateway/gateway-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lkf-cloud-gateway/user-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lkf-cloud-mapstruct" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lkf-cloud-okhttp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lkf-cloud-openfegin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lkf-cloud-openfegin/fegin-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/rest" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lkf-cloud-spring" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lkf-cloud-spring/lkf-cloud-validation" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lkf-cloud-validation" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lkf-cloud-validation" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lkf-cloud-webflux" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lkf-cloud-webflux/webflux-web" charset="UTF-8" />

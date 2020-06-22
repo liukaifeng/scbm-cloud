@@ -1,4 +1,4 @@
-package com.lkf.validation;
+package com.scbm.validation;
 
 
 import com.sun.deploy.util.StringUtils;

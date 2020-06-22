@@ -1,4 +1,4 @@
-package com.lkf.server.config;
+package com.scbm.server.config;
 
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;

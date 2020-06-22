@@ -1,7 +1,7 @@
-package com.lkf.validation.service.dto;
+package com.scbm.validation.service.dto;
 
-import com.lkf.validation.entity.EmployeesBean;
-import com.lkf.validation.entity.EmployeesPO;
+import com.scbm.validation.entity.EmployeesBean;
+import com.scbm.validation.entity.EmployeesPO;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 

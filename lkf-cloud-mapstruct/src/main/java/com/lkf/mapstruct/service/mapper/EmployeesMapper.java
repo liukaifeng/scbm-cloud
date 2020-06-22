@@ -1,7 +1,7 @@
-package com.lkf.validation.service.mapper;
+package com.scbm.validation.service.mapper;
 
-import com.lkf.validation.entity.EmployeesPO;
-import com.lkf.validation.service.dto.EmployeesDTO;
+import com.scbm.validation.entity.EmployeesPO;
+import com.scbm.validation.service.dto.EmployeesDTO;
 import org.mapstruct.IterableMapping;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;

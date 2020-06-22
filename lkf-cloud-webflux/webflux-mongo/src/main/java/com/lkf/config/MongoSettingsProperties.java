@@ -1,4 +1,4 @@
-package com.lkf.config;
+package com.scbm.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

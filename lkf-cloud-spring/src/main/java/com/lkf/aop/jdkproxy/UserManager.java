@@ -1,4 +1,4 @@
-package com.lkf.aop.jdkproxy;
+package com.scbm.aop.jdkproxy;
 
 /**
  * 用户管理接口

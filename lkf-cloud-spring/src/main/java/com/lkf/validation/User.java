@@ -1,4 +1,4 @@
-package com.lkf.validation;
+package com.scbm.validation;
 
 import lombok.Data;
 import org.hibernate.validator.constraints.Length;

@@ -1,4 +1,4 @@
-package com.lkf.filter;
+package com.scbm.filter;
 
 import org.springframework.cloud.gateway.filter.factory.AbstractChangeRequestUriGatewayFilterFactory;
 import org.springframework.cloud.gateway.filter.factory.AbstractGatewayFilterFactory;

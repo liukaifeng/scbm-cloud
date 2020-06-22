@@ -5,7 +5,7 @@
  Source Server Type    : MySQL
  Source Server Version : 50639
  Source Host           : localhost:3306
- Source Schema         : lkf_cloud
+ Source Schema         : scbm_cloud
 
  Target Server Type    : MySQL
  Target Server Version : 50639

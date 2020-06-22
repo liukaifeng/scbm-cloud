@@ -1,4 +1,4 @@
-package com.lkf.aop;
+package com.scbm.aop;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  * @author kaifeng
  */
-@SpringBootApplication(scanBasePackages = "com.lkf")
+@SpringBootApplication(scanBasePackages = "com.scbm")
 public class Spring5Application {
 
     public static void main(String[] args) {

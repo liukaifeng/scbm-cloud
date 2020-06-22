@@ -45,7 +45,7 @@
 
     <!-- 日志输出级别 -->
 
-    <logger level="debug" name="com.lkf" additivity="false">
+    <logger level="debug" name="com.scbm" additivity="false">
         <appender-ref ref="File" />
     </logger>
 

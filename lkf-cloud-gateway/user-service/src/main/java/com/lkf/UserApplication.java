@@ -1,4 +1,4 @@
-package com.lkf;
+package com.scbm;
 
 import com.alibaba.fastjson.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;

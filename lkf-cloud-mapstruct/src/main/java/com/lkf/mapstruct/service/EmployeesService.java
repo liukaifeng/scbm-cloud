@@ -1,7 +1,7 @@
-package com.lkf.validation.service;
+package com.scbm.validation.service;
 
-import com.lkf.validation.entity.EmployeesPO;
-import com.lkf.validation.service.dto.EmployeesDTO;
+import com.scbm.validation.entity.EmployeesPO;
+import com.scbm.validation.service.dto.EmployeesDTO;
 
 import java.util.List;
 

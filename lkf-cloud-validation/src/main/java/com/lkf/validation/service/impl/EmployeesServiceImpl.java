@@ -1,10 +1,10 @@
-package com.lkf.validation.service.impl;
+package com.scbm.validation.service.impl;
 
-import com.lkf.validation.dao.EmployeesDao;
-import com.lkf.validation.entity.EmployeesPO;
-import com.lkf.validation.service.EmployeesService;
-import com.lkf.validation.service.dto.EmployeesDTO;
-import com.lkf.validation.service.mapper.EmployeesMapper;
+import com.scbm.validation.dao.EmployeesDao;
+import com.scbm.validation.entity.EmployeesPO;
+import com.scbm.validation.service.EmployeesService;
+import com.scbm.validation.service.dto.EmployeesDTO;
+import com.scbm.validation.service.mapper.EmployeesMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

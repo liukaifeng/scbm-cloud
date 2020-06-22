@@ -1,4 +1,4 @@
-package com.lkf.gateway.config;
+package com.scbm.gateway.config;
 
 
 import org.springframework.boot.SpringApplication;
@@ -12,7 +12,7 @@ import org.springframework.context.annotation.PropertySource;
  */
 @SpringBootApplication
 @EnableEurekaClient
-@ComponentScan(basePackages = "com.lkf")
+@ComponentScan(basePackages = "com.scbm")
 @PropertySource(value = "classpath:config/application.properties")
 public class Application {
 

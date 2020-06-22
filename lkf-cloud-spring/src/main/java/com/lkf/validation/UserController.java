@@ -1,4 +1,4 @@
-package com.lkf.validation;
+package com.scbm.validation;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.BindingResult;

@@ -1,4 +1,4 @@
-package com.lkf.config;
+package com.scbm.config;
 
 import com.google.gson.JsonObject;
 import com.mongodb.ConnectionString;

@@ -1,6 +1,6 @@
-package com.lkf.validation.dao;
+package com.scbm.validation.dao;
 
-import com.lkf.validation.entity.EmployeesPO;
+import com.scbm.validation.entity.EmployeesPO;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;

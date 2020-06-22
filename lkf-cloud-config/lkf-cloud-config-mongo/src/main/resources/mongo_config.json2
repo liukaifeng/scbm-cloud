@@ -59,7 +59,7 @@
 /* 4 */
 {
     "_id" : ObjectId("5bd7f3f80fbee19c3318b976"),
-    "application" : "lkf-eureka-client",
+    "application" : "scbm-eureka-client",
     "profile" : "dev",
     "label" : "v0.0.1",
     "priority" : 1,
@@ -78,13 +78,13 @@
 /* 5 */
 {
     "_id" : ObjectId("5bd7f8c40fbee19c33224df4"),
-    "application" : "lkf-eureka-client",
+    "application" : "scbm-eureka-client",
     "profile" : "dev",
     "label" : "v0.0.1",
     "priority" : 3,
     "conf" : {
         "server.port" : "8001",
-        "spring.application.name" : "lkf-eureka-client",
+        "spring.application.name" : "scbm-eureka-client",
         "eureka.client.serviceUrl.defaultZone" : "${EUREKA_SERVICE_URL:http://192.168.12.217:8890}/lb/eureka/",
         "management.endpoint.conditions.enabled" : true,
         "eureka.instance.prefer-ip-address" : true,

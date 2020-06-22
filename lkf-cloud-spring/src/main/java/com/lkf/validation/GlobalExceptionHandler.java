@@ -1,4 +1,4 @@
-package com.lkf.validation;
+package com.scbm.validation;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;

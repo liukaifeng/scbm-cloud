@@ -1,4 +1,4 @@
-package com.lkf.client.config;
+package com.scbm.client.config;
 
 
 import org.springframework.boot.SpringApplication;
@@ -14,9 +14,9 @@ import org.springframework.context.annotation.PropertySource;
 
 @SpringBootApplication
 //@EnableEurekaClient
-@ComponentScan(basePackages = "com.lkf")
+@ComponentScan(basePackages = "com.scbm")
 @PropertySource("classpath:config/application.properties")
-@EnableFeignClients(basePackages = "com.lkf")
+@EnableFeignClients(basePackages = "com.scbm")
 public class FeginClientApplication {
 
     public static void main( String[] args ) {

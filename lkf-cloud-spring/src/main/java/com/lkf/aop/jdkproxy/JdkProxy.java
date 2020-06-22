@@ -1,4 +1,4 @@
-package com.lkf.aop.jdkproxy;
+package com.scbm.aop.jdkproxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

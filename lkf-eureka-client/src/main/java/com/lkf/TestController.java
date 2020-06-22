@@ -1,4 +1,4 @@
-package com.lkf;
+package com.scbm;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author kaifeng
  * @date 2018/12/30
  */
-@RequestMapping(value = "/lkf")
+@RequestMapping(value = "/scbm")
 @RefreshScope
 @RestController
 public class TestController {

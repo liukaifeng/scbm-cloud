@@ -1,4 +1,4 @@
-package com.lkf.gateway.exception;
+package com.scbm.gateway.exception;
 
 import org.springframework.boot.autoconfigure.web.ErrorProperties;
 import org.springframework.boot.autoconfigure.web.ResourceProperties;

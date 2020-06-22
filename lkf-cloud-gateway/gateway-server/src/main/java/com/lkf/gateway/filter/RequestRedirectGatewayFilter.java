@@ -1,4 +1,4 @@
-package com.lkf.gateway.filter;
+package com.scbm.gateway.filter;
 
 import org.springframework.cloud.gateway.filter.GatewayFilterChain;
 import org.springframework.cloud.gateway.filter.GlobalFilter;

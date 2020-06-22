@@ -1,4 +1,4 @@
-package com.lkf.controller;
+package com.scbm.controller;
 
 import com.mongodb.reactivestreams.client.MongoClients;
 import lombok.extern.slf4j.Slf4j;

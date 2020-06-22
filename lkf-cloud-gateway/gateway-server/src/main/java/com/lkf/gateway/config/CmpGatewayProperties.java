@@ -1,4 +1,4 @@
-package com.lkf.gateway.config;
+package com.scbm.gateway.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

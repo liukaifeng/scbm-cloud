@@ -1,4 +1,4 @@
-package com.lkf.validation;
+package com.scbm.validation;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -16,7 +16,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * *****************************************************
  * @date 2020-05-27 16:09
  */
-@SpringBootApplication(scanBasePackages = "com.lkf")
+@SpringBootApplication(scanBasePackages = "com.scbm")
 public class MapstructApplication {
 
     public static void main(String[] args) {

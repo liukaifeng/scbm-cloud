@@ -1,6 +1,6 @@
-package com.lkf.client.config;
+package com.scbm.client.config;
 
-import com.lkf.server.fegin.UserControllerFegin;
+import com.scbm.server.fegin.UserControllerFegin;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;

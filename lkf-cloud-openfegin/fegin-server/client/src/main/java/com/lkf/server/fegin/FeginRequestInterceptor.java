@@ -1,4 +1,4 @@
-//package com.lkf.server.fegin;
+//package com.scbm.server.fegin;
 //
 //import feign.RequestInterceptor;
 //import feign.RequestTemplate;

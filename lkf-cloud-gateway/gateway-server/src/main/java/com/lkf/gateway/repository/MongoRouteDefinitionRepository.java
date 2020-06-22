@@ -1,4 +1,4 @@
-package com.lkf.gateway.repository;
+package com.scbm.gateway.repository;
 
 import org.springframework.cloud.gateway.route.RouteDefinition;
 import org.springframework.cloud.gateway.route.RouteDefinitionRepository;

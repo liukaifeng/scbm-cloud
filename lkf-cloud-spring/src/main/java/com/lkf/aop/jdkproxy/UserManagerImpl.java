@@ -1,4 +1,4 @@
-package com.lkf.aop.jdkproxy;
+package com.scbm.aop.jdkproxy;
 
 import org.springframework.stereotype.Service;
 

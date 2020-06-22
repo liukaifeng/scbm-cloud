@@ -1,4 +1,4 @@
-package com.lkf.aop;
+package com.scbm.aop;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -26,7 +26,7 @@ import java.util.Arrays;
 @Configuration
 public class LogAspect {
 
-    @Around(value = "execution(* com.lkf.aop..*(..))")
+    @Around(value = "execution(* com.scbm.aop..*(..))")
     public Object around(ProceedingJoinPoint pjp) throws Throwable {
 
         log.info("请求参数：pjp.getArgs—— {}, pjp.getSimpleName()——{}", Arrays.toString(pjp.getArgs()),  pjp.getTarget().getClass().getSimpleName());

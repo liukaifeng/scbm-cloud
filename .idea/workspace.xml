@@ -2,19 +2,145 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30b36593-f59a-48a5-bcda-293351c86932" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/src/main/java/com/lkf/config/MongoDbFactoryConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/src/main/java/com/lkf/config/MongoSettingsProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/src/main/java/com/lkf/config/ReactiveMongoConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/src/main/java/com/lkf/controller/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/src/main/java/com/lkf/controller/LogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lkf-cloud-mapstruct/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lkf-cloud-mapstruct/target/classes/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lkf-cloud-mapstruct/target/classes/mapper/EmployeesMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lkf-cloud-mapstruct/target/generated-sources/annotations/com/lkf/validation/service/mapper/EmployeesMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-repo/dev/config-client-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-repo/dev/config-client-dev.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-repo/test/config-client-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-repo/test/config-client-test.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-admin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-admin/src/main/java/com/lkf/SpringBootAdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-admin/src/main/java/com/lkf/SpringBootAdminApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-admin/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-admin/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-admin/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-alibaba/lkf-cloud-nacos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-alibaba/lkf-cloud-nacos/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-alibaba/lkf-cloud-nacos/src/main/java/com/lkf/nacos/GatewayServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-alibaba/lkf-cloud-nacos/src/main/java/com/lkf/nacos/GatewayServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-alibaba/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-alibaba/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-git/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-git/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-git/src/main/java/com/lkf/GitConfigApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-git/src/main/java/com/lkf/GitConfigApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-git/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-git/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-jdbc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-jdbc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-jdbc/src/main/java/com/lkf/JdbcConfigApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-jdbc/src/main/java/com/lkf/JdbcConfigApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-jdbc/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-jdbc/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-jdbc/src/main/resources/properties.sql" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-jdbc/src/main/resources/properties.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-mongo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-mongo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-mongo/src/main/java/com/lkf/server/config/repository/MongoConfigApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-mongo/src/main/java/com/lkf/server/config/repository/MongoConfigApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-mongo/src/main/java/com/lkf/server/config/repository/MongoEnvironment.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-mongo/src/main/java/com/lkf/server/config/repository/MongoEnvironment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-mongo/src/main/java/com/lkf/server/config/repository/MongoEnvironmentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-mongo/src/main/java/com/lkf/server/config/repository/MongoEnvironmentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-mongo/src/main/java/com/lkf/server/config/repository/MongoEnvironmentRepositoryConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-mongo/src/main/java/com/lkf/server/config/repository/MongoEnvironmentRepositoryConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-mongo/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-mongo/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-mongo/src/main/resources/mongo_config.json2" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-mongo/src/main/resources/mongo_config.json2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-config/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-eureka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-eureka/src/main/java/com/lkf/EurekaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-eureka/src/main/java/com/lkf/EurekaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-eureka/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-eureka/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-eureka/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-eureka/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-eureka/src/test/java/com/lkf/LkfCloudEurekaApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-eureka/src/test/java/com/lkf/LkfCloudEurekaApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/filter/RequestBodyToRequestUriGatewayFilterFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/filter/RequestBodyToRequestUriGatewayFilterFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/config/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/config/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/config/CmpErrorHandlerAutoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/config/CmpErrorHandlerAutoConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/config/CmpGatewayAutoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/config/CmpGatewayAutoConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/config/CmpGatewayProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/config/CmpGatewayProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/exception/CmpGatewayExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/exception/CmpGatewayExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/exception/JsonExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/exception/JsonExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/filter/AuthorizeFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/filter/AuthorizeFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/filter/AuthorizeGatewayFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/filter/AuthorizeGatewayFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/filter/AuthorizeGatewayFilterFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/filter/AuthorizeGatewayFilterFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/filter/GatewayLoggingGlobalFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/filter/GatewayLoggingGlobalFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/filter/RequestRedirectGatewayFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/filter/RequestRedirectGatewayFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/repository/MongoRouteDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/repository/MongoRouteDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/repository/MongoRouteDefinitionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/repository/MongoRouteDefinitionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/resources/config/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/resources/config/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/resources/config/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/resources/config/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-gateway/user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/user-service/src/main/java/com/lkf/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-gateway/user-service/src/main/java/com/lkf/UserApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/user-service/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-gateway/user-service/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-mapstruct/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-mapstruct/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/java/com/lkf/mapstruct/MapstructApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/java/com/lkf/mapstruct/MapstructApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/java/com/lkf/mapstruct/controller/EmployeesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/java/com/lkf/mapstruct/controller/EmployeesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/java/com/lkf/mapstruct/dao/EmployeesDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/java/com/lkf/mapstruct/dao/EmployeesDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/java/com/lkf/mapstruct/entity/EmployeesBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/java/com/lkf/mapstruct/entity/EmployeesBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/java/com/lkf/mapstruct/entity/EmployeesPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/java/com/lkf/mapstruct/entity/EmployeesPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/java/com/lkf/mapstruct/service/EmployeesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/java/com/lkf/mapstruct/service/EmployeesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/java/com/lkf/mapstruct/service/dto/EmployeesDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/java/com/lkf/mapstruct/service/dto/EmployeesDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/java/com/lkf/mapstruct/service/impl/EmployeesServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/java/com/lkf/mapstruct/service/impl/EmployeesServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/java/com/lkf/mapstruct/service/mapper/EmployeesMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/java/com/lkf/mapstruct/service/mapper/EmployeesMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/resources/mapper/EmployeesMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/resources/mapper/EmployeesMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-okhttp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-okhttp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-okhttp/src/main/java/com/lkf/OkHttp3Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-okhttp/src/main/java/com/lkf/OkHttp3Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-okhttp/src/main/java/com/lkf/OkHttpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-okhttp/src/main/java/com/lkf/OkHttpUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-client/src/main/java/com/lkf/client/config/FeginClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-client/src/main/java/com/lkf/client/config/FeginClientApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-client/src/main/java/com/lkf/client/config/FeginClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-client/src/main/java/com/lkf/client/config/FeginClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-client/src/main/resources/config/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-client/src/main/resources/config/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/client/src/main/java/com/lkf/server/fegin/FeginRequestInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/client/src/main/java/com/lkf/server/fegin/FeginRequestInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/client/src/main/java/com/lkf/server/fegin/FeignOkHttpConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/client/src/main/java/com/lkf/server/fegin/FeignOkHttpConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/client/src/main/java/com/lkf/server/fegin/OkHttpInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/client/src/main/java/com/lkf/server/fegin/OkHttpInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/client/src/main/java/com/lkf/server/fegin/UserControllerFegin.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/client/src/main/java/com/lkf/server/fegin/UserControllerFegin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/rest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/rest/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/rest/src/main/java/com/lkf/server/config/FeginServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/rest/src/main/java/com/lkf/server/config/FeginServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/rest/src/main/java/com/lkf/server/config/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/rest/src/main/java/com/lkf/server/config/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/rest/src/main/resources/config/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/rest/src/main/resources/config/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/rest/src/main/resources/config/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/rest/src/main/resources/config/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-openfegin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-spring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/aop/LogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/aop/LogAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/aop/Spring5Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/aop/Spring5Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/aop/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/aop/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/aop/jdkproxy/JdkProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/aop/jdkproxy/JdkProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/aop/jdkproxy/UserManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/aop/jdkproxy/UserManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/aop/jdkproxy/UserManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/aop/jdkproxy/UserManagerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/validation/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/validation/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/validation/GlobalExceptionHandler2.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/validation/GlobalExceptionHandler2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/validation/ParamValidatorUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/validation/ParamValidatorUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/validation/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/validation/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/validation/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/validation/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/validation/ValidateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/validation/ValidateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/validation/ValidationResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/validation/ValidationResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/validation/ValidatorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/validation/ValidatorConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/validation/ValidatorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/validation/ValidatorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-spring/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-validation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-validation/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-validation/src/main/java/com/lkf/validation/ValidationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-validation/src/main/java/com/lkf/validation/ValidationApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-validation/src/main/java/com/lkf/validation/controller/EmployeesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-validation/src/main/java/com/lkf/validation/controller/EmployeesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-validation/src/main/java/com/lkf/validation/dao/EmployeesDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-validation/src/main/java/com/lkf/validation/dao/EmployeesDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-validation/src/main/java/com/lkf/validation/entity/EmployeesBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-validation/src/main/java/com/lkf/validation/entity/EmployeesBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-validation/src/main/java/com/lkf/validation/entity/EmployeesPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-validation/src/main/java/com/lkf/validation/entity/EmployeesPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-validation/src/main/java/com/lkf/validation/service/EmployeesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-validation/src/main/java/com/lkf/validation/service/EmployeesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-validation/src/main/java/com/lkf/validation/service/dto/EmployeesDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-validation/src/main/java/com/lkf/validation/service/dto/EmployeesDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-validation/src/main/java/com/lkf/validation/service/impl/EmployeesServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-validation/src/main/java/com/lkf/validation/service/impl/EmployeesServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-validation/src/main/java/com/lkf/validation/service/mapper/EmployeesMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-validation/src/main/java/com/lkf/validation/service/mapper/EmployeesMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-validation/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-validation/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-validation/src/main/resources/mapper/EmployeesMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-validation/src/main/resources/mapper/EmployeesMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lkf-cloud-webflux/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-webflux/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/src/main/java/com/lkf/config/MongoDbFactoryConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/src/main/java/com/lkf/config/MongoDbFactoryConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/src/main/java/com/lkf/config/MongoSettingsProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/src/main/java/com/lkf/config/MongoSettingsProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/src/main/java/com/lkf/config/ReactiveMongoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/src/main/java/com/lkf/config/ReactiveMongoConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/src/main/java/com/lkf/controller/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/src/main/java/com/lkf/controller/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/src/main/java/com/lkf/controller/LogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/src/main/java/com/lkf/controller/LogController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-web/src/main/java/com/lkf/controller/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-web/src/main/java/com/lkf/controller/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-web/src/main/java/com/lkf/controller/LogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-web/src/main/java/com/lkf/controller/LogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-eureka-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-eureka-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-eureka-client/src/main/java/com/lkf/EurekaClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-eureka-client/src/main/java/com/lkf/EurekaClientApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-eureka-client/src/main/java/com/lkf/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-eureka-client/src/main/java/com/lkf/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-eureka-client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-eureka-client/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-eureka-client/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-eureka-client/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-eureka-client/src/test/java/com/lkf/EurekaClientApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-eureka-client/src/test/java/com/lkf/EurekaClientApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,9 +151,54 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="203" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="203" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="203" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="employees: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="203" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="employees: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="203" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="employees: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="views" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -54,7 +225,12 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1Zv3CF2J70x4lffZsYnBzoYLIqA" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -63,21 +239,29 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534840096882" />
     <property name="jdk.selected.JAVA_MODULE" value="jdk1.8.0_161" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lkf-cloud-validation/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lkf.aop" />
       <recent name="com.lkf.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\workspace\github\lkf-cloud\lkf-cloud-validation\src\main\resources" />
+      <recent name="G:\workspace\github\lkf-cloud\lkf-cloud-spring\src\main\resources" />
       <recent name="G:\workspace\github\lkf-cloud\lkf-cloud-webflux\webflux-mongo" />
     </key>
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -89,9 +273,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LogController">
+  <component name="RunManager" selected="Spring Boot.MapstructApplication">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdkProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lkf.aop.jdkproxy.JdkProxy" />
+      <module name="lkf-cloud-spring" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lkf.aop.jdkproxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,9 +321,119 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gateway-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lkf.gateway.config.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="webflux-mongo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lkf.controller.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lkf-cloud-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lkf.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lkf-eureka-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lkf.EurekaClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FeginClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="fegin-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lkf.client.config.FeginClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FeginServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="fegin-server-rest" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lkf.server.config.FeginServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GitConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lkf-cloud-config-git" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lkf.GitConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lkf-cloud-config-jdbc" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lkf.JdbcConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LkfCloudGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="lkf-cloud-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lkf.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapstructApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="lkf-cloud-mapstruct" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lkf.validation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lkf.validation.MapstructApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MongoConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lkf-cloud-config-mongo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lkf.server.config.repository.MongoConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring5Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="lkf-cloud-spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lkf.aop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lkf.aop.Spring5Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lkf-cloud-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lkf.SpringBootAdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lkf.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lkf-cloud-validation" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lkf.validation.ValidationApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -150,9 +458,33 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.MapstructApplication" />
+        <item itemvalue="Spring Boot.Spring5Application" />
+        <item itemvalue="Application.JdkProxy" />
         <item itemvalue="Application.LogController" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <option name="contentProportion" value="0.094206825" />
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@574e3bf9" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@574e3bf9" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@d5aa658d" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -170,7 +502,15 @@
       <workItem from="1585705612857" duration="267000" />
       <workItem from="1585705933850" duration="8860000" />
       <workItem from="1585726582884" duration="2051000" />
-      <workItem from="1585729958537" duration="5999000" />
+      <workItem from="1585729958537" duration="9891000" />
+      <workItem from="1586413141477" duration="775000" />
+      <workItem from="1586416786084" duration="9704000" />
+      <workItem from="1587709532230" duration="3470000" />
+      <workItem from="1587716488243" duration="611000" />
+      <workItem from="1590557595094" duration="12122000" />
+      <workItem from="1592473316398" duration="68000" />
+      <workItem from="1592473465407" duration="396000" />
+      <workItem from="1592795767564" duration="1004000" />
     </task>
     <task id="LOCAL-00001" summary="spring boot、spring cloud 版本升级；新增 webflux；">
       <created>1585713293219</created>
@@ -179,7 +519,56 @@
       <option name="project" value="LOCAL" />
       <updated>1585713293219</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="reactivate mongodb 连接池调试">
+      <created>1585736328710</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585736328711</updated>
+    </task>
+    <task id="LOCAL-00003" summary="reactivate mongodb 连接池调试">
+      <created>1586413213738</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586413213738</updated>
+    </task>
+    <task id="LOCAL-00004" summary="aop动态代理学习">
+      <created>1586423978838</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586423978838</updated>
+    </task>
+    <task id="LOCAL-00005" summary="代码提交">
+      <created>1590557678207</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1590557678207</updated>
+    </task>
+    <task id="LOCAL-00006" summary="mapstruct 对象映射框架尝试">
+      <created>1590569756994</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1590569756994</updated>
+    </task>
+    <task id="LOCAL-00007" summary="mapstruct 使用undertow替换tomcat">
+      <created>1590572228330</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1590572228330</updated>
+    </task>
+    <task id="LOCAL-00008" summary="mapstruct 使用undertow替换tomcat">
+      <created>1590573142198</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1590573142198</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,8 +588,14 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="spring boot、spring cloud 版本升级；新增 webflux；" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring boot、spring cloud 版本升级；新增 webflux；" />
+    <MESSAGE value="reactivate mongodb 连接池调试" />
+    <MESSAGE value="aop动态代理学习" />
+    <MESSAGE value="代码提交" />
+    <MESSAGE value="mapstruct 对象映射框架尝试" />
+    <MESSAGE value="mapstruct 使用undertow替换tomcat" />
+    <option name="LAST_COMMIT_MESSAGE" value="mapstruct 使用undertow替换tomcat" />
   </component>
   <component name="masterDetails">
     <states>

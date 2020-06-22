@@ -1,6 +1,6 @@
-package com.lkf.aop.controller;
+package com.scbm.aop.controller;
 
-import com.lkf.aop.jdkproxy.UserManager;
+import com.scbm.aop.jdkproxy.UserManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.MediaType;

@@ -1,4 +1,4 @@
-package com.lkf.gateway.repository;
+package com.scbm.gateway.repository;
 
 import lombok.Data;
 import org.springframework.cloud.gateway.filter.FilterDefinition;

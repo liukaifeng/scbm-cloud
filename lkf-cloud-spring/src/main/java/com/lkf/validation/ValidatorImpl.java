@@ -1,4 +1,4 @@
-package com.lkf.validation;
+package com.scbm.validation;
 
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.stereotype.Component;

@@ -1,4 +1,4 @@
-package com.lkf.server.config.repository;
+package com.scbm.server.config.repository;
 
 import org.springframework.cloud.config.environment.Environment;
 import org.springframework.cloud.config.environment.PropertySource;
@@ -99,7 +99,7 @@ public class MongoEnvironmentRepository implements EnvironmentRepository, Ordere
      * @param application 应用名称
      * @param profile   环境
      * @param label       版本
-     * @return com.lkf.config.repository.MongoEnvironment
+     * @return com.scbm.config.repository.MongoEnvironment
      * @author 刘凯峰
      * @date 2018/10/30 14:11
      */

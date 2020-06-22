@@ -1,4 +1,4 @@
-package com.lkf.validation;
+package com.scbm.validation;
 
 import javax.validation.ConstraintViolation;
 import javax.validation.Validator;

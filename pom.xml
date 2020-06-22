@@ -3,8 +3,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.lkf</groupId>
-    <artifactId>lkf-cloud</artifactId>
+    <groupId>com.scbm</groupId>
+    <artifactId>scbm-cloud</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
@@ -14,24 +14,24 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <spring-boot.version>2.2.6.RELEASE</spring-boot.version>
         <spring-cloud.version>Hoxton.SR3</spring-cloud.version>
-        <project.log.prefix>/data/logs/loongboss</project.log.prefix>
+        <project.log.prefix>/data/logs/</project.log.prefix>
         <project.log.level>debug</project.log.level>
         <project.env.label>dev</project.env.label>
         <project.config.uri>http://localhost:1010/</project.config.uri>
     </properties>
 
     <modules>
-        <module>lkf-cloud-gateway</module>
-        <module>lkf-cloud-eureka</module>
-        <module>lkf-cloud-admin</module>
-        <module>lkf-eureka-client</module>
-        <module>lkf-cloud-config</module>
-        <module>lkf-cloud-openfegin</module>
-        <module>lkf-cloud-okhttp</module>
-        <module>lkf-cloud-webflux</module>
-        <module>lkf-cloud-spring</module>
-        <module>lkf-cloud-mapstruct</module>
-        <module>lkf-cloud-validation</module>
+        <module>scbm-cloud-gateway</module>
+        <module>scbm-cloud-eureka</module>
+        <module>scbm-cloud-admin</module>
+        <module>scbm-eureka-client</module>
+        <module>scbm-cloud-config</module>
+        <module>scbm-cloud-openfegin</module>
+        <module>scbm-cloud-okhttp</module>
+        <module>scbm-cloud-webflux</module>
+        <module>scbm-cloud-spring</module>
+        <module>scbm-cloud-mapstruct</module>
+        <module>scbm-cloud-validation</module>
     </modules>
 
     <dependencies>

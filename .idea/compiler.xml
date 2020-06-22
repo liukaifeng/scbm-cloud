@@ -2,11 +2,13 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="lkf-cloud-config-mongo" />
+        <module name="lkf-cloud-mapstruct" />
         <module name="lkf-cloud-okhttp" />
         <module name="lkf-cloud-eureka" />
         <module name="lkf-eureka-client" />
@@ -16,10 +18,12 @@
         <module name="webflux-web" />
         <module name="fegin-client" />
         <module name="webflux-mongo" />
+        <module name="lkf-cloud-validation" />
         <module name="fegin-server-rest" />
         <module name="fegin-server-client" />
         <module name="user-service" />
         <module name="lkf-cloud-admin" />
+        <module name="lkf-cloud-spring" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -27,7 +31,7 @@
       <module name="fegin-server" target="1.5" />
       <module name="fegin-server-client" target="1.5" />
       <module name="fegin-server-rest" target="1.5" />
-      <module name="gateway-server" target="1.5" />
+      <module name="gateway-server" target="8" />
       <module name="lkf-cloud" target="1.5" />
       <module name="lkf-cloud-admin" target="1.5" />
       <module name="lkf-cloud-config" target="1.5" />
@@ -36,10 +40,14 @@
       <module name="lkf-cloud-config-mongo" target="1.5" />
       <module name="lkf-cloud-eureka" target="1.5" />
       <module name="lkf-cloud-gateway" target="1.5" />
+      <module name="lkf-cloud-mapstruct" target="8" />
       <module name="lkf-cloud-okhttp" target="1.5" />
       <module name="lkf-cloud-openfegin" target="1.5" />
+      <module name="lkf-cloud-spring" target="8" />
+      <module name="lkf-cloud-validation" target="8" />
       <module name="lkf-cloud-webflux" target="1.5" />
       <module name="lkf-eureka-client" target="1.5" />
+      <module name="scbm-cloud" target="1.5" />
       <module name="user-service" target="1.5" />
       <module name="webflux-mongo" target="1.5" />
       <module name="webflux-web" target="1.5" />

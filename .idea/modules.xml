@@ -15,10 +15,14 @@
       <module fileurl="file://$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-mongo/lkf-cloud-config-mongo.iml" filepath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-mongo/lkf-cloud-config-mongo.iml" />
       <module fileurl="file://$PROJECT_DIR$/lkf-cloud-eureka/lkf-cloud-eureka.iml" filepath="$PROJECT_DIR$/lkf-cloud-eureka/lkf-cloud-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/lkf-cloud-gateway/lkf-cloud-gateway.iml" filepath="$PROJECT_DIR$/lkf-cloud-gateway/lkf-cloud-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lkf-cloud-mapstruct/lkf-cloud-mapstruct.iml" filepath="$PROJECT_DIR$/lkf-cloud-mapstruct/lkf-cloud-mapstruct.iml" />
       <module fileurl="file://$PROJECT_DIR$/lkf-cloud-okhttp/lkf-cloud-okhttp.iml" filepath="$PROJECT_DIR$/lkf-cloud-okhttp/lkf-cloud-okhttp.iml" />
       <module fileurl="file://$PROJECT_DIR$/lkf-cloud-openfegin/lkf-cloud-openfegin.iml" filepath="$PROJECT_DIR$/lkf-cloud-openfegin/lkf-cloud-openfegin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lkf-cloud-spring/lkf-cloud-spring.iml" filepath="$PROJECT_DIR$/lkf-cloud-spring/lkf-cloud-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lkf-cloud-validation/lkf-cloud-validation.iml" filepath="$PROJECT_DIR$/lkf-cloud-validation/lkf-cloud-validation.iml" />
       <module fileurl="file://$PROJECT_DIR$/lkf-cloud-webflux/lkf-cloud-webflux.iml" filepath="$PROJECT_DIR$/lkf-cloud-webflux/lkf-cloud-webflux.iml" />
       <module fileurl="file://$PROJECT_DIR$/lkf-eureka-client/lkf-eureka-client.iml" filepath="$PROJECT_DIR$/lkf-eureka-client/lkf-eureka-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbm-cloud.iml" filepath="$PROJECT_DIR$/scbm-cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/lkf-cloud-gateway/user-service/user-service.iml" filepath="$PROJECT_DIR$/lkf-cloud-gateway/user-service/user-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/webflux-mongo.iml" filepath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/webflux-mongo.iml" />
       <module fileurl="file://$PROJECT_DIR$/lkf-cloud-webflux/webflux-web/webflux-web.iml" filepath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-web/webflux-web.iml" />

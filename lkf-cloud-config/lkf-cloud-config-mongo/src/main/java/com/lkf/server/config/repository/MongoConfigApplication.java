@@ -1,4 +1,4 @@
-package com.lkf.server.config.repository;
+package com.scbm.server.config.repository;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

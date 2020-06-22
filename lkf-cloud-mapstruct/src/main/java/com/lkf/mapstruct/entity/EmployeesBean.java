@@ -1,4 +1,4 @@
-package com.lkf.validation.entity;
+package com.scbm.validation.entity;
 
 import lombok.Data;
 

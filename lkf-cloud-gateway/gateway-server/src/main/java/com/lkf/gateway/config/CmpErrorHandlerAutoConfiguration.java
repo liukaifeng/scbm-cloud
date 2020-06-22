@@ -1,6 +1,6 @@
-package com.lkf.gateway.config;
+package com.scbm.gateway.config;
 
-import com.lkf.gateway.exception.CmpGatewayExceptionHandler;
+import com.scbm.gateway.exception.CmpGatewayExceptionHandler;
 
 import org.springframework.beans.factory.ObjectProvider;
 import org.springframework.boot.autoconfigure.web.ResourceProperties;

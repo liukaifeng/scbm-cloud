@@ -1,7 +1,7 @@
-package com.lkf.validation.controller;
+package com.scbm.validation.controller;
 
-import com.lkf.validation.service.EmployeesService;
-import com.lkf.validation.service.dto.EmployeesDTO;
+import com.scbm.validation.service.EmployeesService;
+import com.scbm.validation.service.dto.EmployeesDTO;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.RequestEntity;

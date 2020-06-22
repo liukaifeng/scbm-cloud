@@ -1,6 +1,6 @@
-package com.lkf.gateway.config;
+package com.scbm.gateway.config;
 
-import com.lkf.gateway.repository.MongoRouteDefinitionRepository;
+import com.scbm.gateway.repository.MongoRouteDefinitionRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
