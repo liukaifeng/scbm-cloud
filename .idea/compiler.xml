@@ -9,20 +9,23 @@
         <outputRelativeToContentRoot value="true" />
         <module name="lkf-cloud-config-mongo" />
         <module name="lkf-cloud-mapstruct" />
-        <module name="lkf-cloud-okhttp" />
-        <module name="lkf-cloud-eureka" />
-        <module name="lkf-eureka-client" />
+        <module name="scbm-cloud-validation" />
         <module name="lkf-cloud-config-jdbc" />
+        <module name="scbm-eureka-client" />
+        <module name="scbm-cloud-admin" />
         <module name="lkf-cloud-config-git" />
         <module name="gateway-server" />
         <module name="webflux-web" />
         <module name="fegin-client" />
+        <module name="scbm-cloud-spring" />
         <module name="webflux-mongo" />
         <module name="lkf-cloud-validation" />
+        <module name="scbm-cloud-okhttp" />
+        <module name="scbm-cloud-eureka" />
         <module name="fegin-server-rest" />
         <module name="fegin-server-client" />
         <module name="user-service" />
-        <module name="lkf-cloud-admin" />
+        <module name="scbm-cloud-mapstruct" />
         <module name="lkf-cloud-spring" />
       </profile>
     </annotationProcessing>
@@ -33,21 +36,24 @@
       <module name="fegin-server-rest" target="1.5" />
       <module name="gateway-server" target="8" />
       <module name="lkf-cloud" target="1.5" />
-      <module name="lkf-cloud-admin" target="1.5" />
-      <module name="lkf-cloud-config" target="1.5" />
       <module name="lkf-cloud-config-git" target="1.5" />
       <module name="lkf-cloud-config-jdbc" target="1.5" />
       <module name="lkf-cloud-config-mongo" target="1.5" />
-      <module name="lkf-cloud-eureka" target="1.5" />
-      <module name="lkf-cloud-gateway" target="1.5" />
       <module name="lkf-cloud-mapstruct" target="8" />
-      <module name="lkf-cloud-okhttp" target="1.5" />
-      <module name="lkf-cloud-openfegin" target="1.5" />
       <module name="lkf-cloud-spring" target="8" />
       <module name="lkf-cloud-validation" target="8" />
-      <module name="lkf-cloud-webflux" target="1.5" />
-      <module name="lkf-eureka-client" target="1.5" />
       <module name="scbm-cloud" target="1.5" />
+      <module name="scbm-cloud-admin" target="1.5" />
+      <module name="scbm-cloud-config" target="1.5" />
+      <module name="scbm-cloud-eureka" target="1.5" />
+      <module name="scbm-cloud-gateway" target="1.5" />
+      <module name="scbm-cloud-mapstruct" target="8" />
+      <module name="scbm-cloud-okhttp" target="1.5" />
+      <module name="scbm-cloud-openfegin" target="1.5" />
+      <module name="scbm-cloud-spring" target="8" />
+      <module name="scbm-cloud-validation" target="8" />
+      <module name="scbm-cloud-webflux" target="1.5" />
+      <module name="scbm-eureka-client" target="1.5" />
       <module name="user-service" target="1.5" />
       <module name="webflux-mongo" target="1.5" />
       <module name="webflux-web" target="1.5" />

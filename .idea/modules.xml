@@ -2,30 +2,33 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/lkf-cloud-openfegin/fegin-client/fegin-client.iml" filepath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-client/fegin-client.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/fegin-server.iml" filepath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/fegin-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/client/fegin-server-client.iml" filepath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/client/fegin-server-client.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/rest/fegin-server-rest.iml" filepath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/rest/fegin-server-rest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/gateway-server.iml" filepath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/gateway-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbm-cloud-openfegin/fegin-client/fegin-client.iml" filepath="$PROJECT_DIR$/scbm-cloud-openfegin/fegin-client/fegin-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbm-cloud-openfegin/fegin-server/fegin-server.iml" filepath="$PROJECT_DIR$/scbm-cloud-openfegin/fegin-server/fegin-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbm-cloud-openfegin/fegin-server/client/fegin-server-client.iml" filepath="$PROJECT_DIR$/scbm-cloud-openfegin/fegin-server/client/fegin-server-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbm-cloud-openfegin/fegin-server/rest/fegin-server-rest.iml" filepath="$PROJECT_DIR$/scbm-cloud-openfegin/fegin-server/rest/fegin-server-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbm-cloud-gateway/gateway-server/gateway-server.iml" filepath="$PROJECT_DIR$/scbm-cloud-gateway/gateway-server/gateway-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/lkf-cloud.iml" filepath="$PROJECT_DIR$/lkf-cloud.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lkf-cloud-admin/lkf-cloud-admin.iml" filepath="$PROJECT_DIR$/lkf-cloud-admin/lkf-cloud-admin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config.iml" filepath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-git/lkf-cloud-config-git.iml" filepath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-git/lkf-cloud-config-git.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-jdbc/lkf-cloud-config-jdbc.iml" filepath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-jdbc/lkf-cloud-config-jdbc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-mongo/lkf-cloud-config-mongo.iml" filepath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-mongo/lkf-cloud-config-mongo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lkf-cloud-eureka/lkf-cloud-eureka.iml" filepath="$PROJECT_DIR$/lkf-cloud-eureka/lkf-cloud-eureka.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lkf-cloud-gateway/lkf-cloud-gateway.iml" filepath="$PROJECT_DIR$/lkf-cloud-gateway/lkf-cloud-gateway.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lkf-cloud-mapstruct/lkf-cloud-mapstruct.iml" filepath="$PROJECT_DIR$/lkf-cloud-mapstruct/lkf-cloud-mapstruct.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lkf-cloud-okhttp/lkf-cloud-okhttp.iml" filepath="$PROJECT_DIR$/lkf-cloud-okhttp/lkf-cloud-okhttp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lkf-cloud-openfegin/lkf-cloud-openfegin.iml" filepath="$PROJECT_DIR$/lkf-cloud-openfegin/lkf-cloud-openfegin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lkf-cloud-spring/lkf-cloud-spring.iml" filepath="$PROJECT_DIR$/lkf-cloud-spring/lkf-cloud-spring.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lkf-cloud-validation/lkf-cloud-validation.iml" filepath="$PROJECT_DIR$/lkf-cloud-validation/lkf-cloud-validation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lkf-cloud-webflux/lkf-cloud-webflux.iml" filepath="$PROJECT_DIR$/lkf-cloud-webflux/lkf-cloud-webflux.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lkf-eureka-client/lkf-eureka-client.iml" filepath="$PROJECT_DIR$/lkf-eureka-client/lkf-eureka-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbm-cloud-config/lkf-cloud-config-git/lkf-cloud-config-git.iml" filepath="$PROJECT_DIR$/scbm-cloud-config/lkf-cloud-config-git/lkf-cloud-config-git.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbm-cloud-config/lkf-cloud-config-jdbc/lkf-cloud-config-jdbc.iml" filepath="$PROJECT_DIR$/scbm-cloud-config/lkf-cloud-config-jdbc/lkf-cloud-config-jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbm-cloud-config/lkf-cloud-config-mongo/lkf-cloud-config-mongo.iml" filepath="$PROJECT_DIR$/scbm-cloud-config/lkf-cloud-config-mongo/lkf-cloud-config-mongo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbm-cloud-mapstruct/lkf-cloud-mapstruct.iml" filepath="$PROJECT_DIR$/scbm-cloud-mapstruct/lkf-cloud-mapstruct.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbm-cloud-spring/lkf-cloud-spring.iml" filepath="$PROJECT_DIR$/scbm-cloud-spring/lkf-cloud-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbm-cloud-validation/lkf-cloud-validation.iml" filepath="$PROJECT_DIR$/scbm-cloud-validation/lkf-cloud-validation.iml" />
       <module fileurl="file://$PROJECT_DIR$/scbm-cloud.iml" filepath="$PROJECT_DIR$/scbm-cloud.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lkf-cloud-gateway/user-service/user-service.iml" filepath="$PROJECT_DIR$/lkf-cloud-gateway/user-service/user-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/webflux-mongo.iml" filepath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/webflux-mongo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lkf-cloud-webflux/webflux-web/webflux-web.iml" filepath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-web/webflux-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbm-cloud-admin/scbm-cloud-admin.iml" filepath="$PROJECT_DIR$/scbm-cloud-admin/scbm-cloud-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbm-cloud-config/scbm-cloud-config.iml" filepath="$PROJECT_DIR$/scbm-cloud-config/scbm-cloud-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbm-cloud-eureka/scbm-cloud-eureka.iml" filepath="$PROJECT_DIR$/scbm-cloud-eureka/scbm-cloud-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbm-cloud-gateway/scbm-cloud-gateway.iml" filepath="$PROJECT_DIR$/scbm-cloud-gateway/scbm-cloud-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbm-cloud-mapstruct/scbm-cloud-mapstruct.iml" filepath="$PROJECT_DIR$/scbm-cloud-mapstruct/scbm-cloud-mapstruct.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbm-cloud-okhttp/scbm-cloud-okhttp.iml" filepath="$PROJECT_DIR$/scbm-cloud-okhttp/scbm-cloud-okhttp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbm-cloud-openfegin/scbm-cloud-openfegin.iml" filepath="$PROJECT_DIR$/scbm-cloud-openfegin/scbm-cloud-openfegin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbm-cloud-spring/scbm-cloud-spring.iml" filepath="$PROJECT_DIR$/scbm-cloud-spring/scbm-cloud-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbm-cloud-validation/scbm-cloud-validation.iml" filepath="$PROJECT_DIR$/scbm-cloud-validation/scbm-cloud-validation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbm-cloud-webflux/scbm-cloud-webflux.iml" filepath="$PROJECT_DIR$/scbm-cloud-webflux/scbm-cloud-webflux.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbm-eureka-client/scbm-eureka-client.iml" filepath="$PROJECT_DIR$/scbm-eureka-client/scbm-eureka-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbm-cloud-gateway/user-service/user-service.iml" filepath="$PROJECT_DIR$/scbm-cloud-gateway/user-service/user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbm-cloud-webflux/webflux-mongo/webflux-mongo.iml" filepath="$PROJECT_DIR$/scbm-cloud-webflux/webflux-mongo/webflux-mongo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scbm-cloud-webflux/webflux-web/webflux-web.iml" filepath="$PROJECT_DIR$/scbm-cloud-webflux/webflux-web/webflux-web.iml" />
     </modules>
   </component>
 </project>

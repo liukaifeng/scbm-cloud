@@ -2,29 +2,27 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lkf-cloud-admin" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lkf-cloud-config" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-git" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-jdbc" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-mongo" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lkf-cloud-eureka" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lkf-cloud-gateway" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lkf-cloud-gateway/gateway-server" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lkf-cloud-gateway/user-service" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lkf-cloud-mapstruct" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lkf-cloud-okhttp" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lkf-cloud-openfegin" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lkf-cloud-openfegin/fegin-client" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/client" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/rest" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lkf-cloud-spring" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lkf-cloud-spring/lkf-cloud-validation" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lkf-cloud-validation" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lkf-cloud-validation" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lkf-cloud-webflux" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lkf-cloud-webflux/webflux-web" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lkf-eureka-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scbm-cloud-admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scbm-cloud-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scbm-cloud-config/lkf-cloud-config-git" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scbm-cloud-config/lkf-cloud-config-jdbc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scbm-cloud-config/lkf-cloud-config-mongo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scbm-cloud-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scbm-cloud-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scbm-cloud-gateway/gateway-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scbm-cloud-gateway/user-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scbm-cloud-mapstruct" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scbm-cloud-okhttp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scbm-cloud-openfegin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scbm-cloud-openfegin/fegin-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scbm-cloud-openfegin/fegin-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scbm-cloud-openfegin/fegin-server/client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scbm-cloud-openfegin/fegin-server/rest" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scbm-cloud-spring" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scbm-cloud-validation" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scbm-cloud-webflux" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scbm-cloud-webflux/webflux-mongo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scbm-cloud-webflux/webflux-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/scbm-eureka-client" charset="UTF-8" />
   </component>
 </project>

@@ -2,145 +2,142 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30b36593-f59a-48a5-bcda-293351c86932" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lkf-cloud-mapstruct/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lkf-cloud-mapstruct/target/classes/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lkf-cloud-mapstruct/target/classes/mapper/EmployeesMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lkf-cloud-mapstruct/target/generated-sources/annotations/com/lkf/validation/service/mapper/EmployeesMapperImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-repo/dev/config-client-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-repo/dev/config-client-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-repo/test/config-client-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-repo/test/config-client-test.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-admin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-admin/src/main/java/com/lkf/SpringBootAdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-admin/src/main/java/com/lkf/SpringBootAdminApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-admin/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-admin/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-admin/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-alibaba/lkf-cloud-nacos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-alibaba/lkf-cloud-nacos/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-alibaba/lkf-cloud-nacos/src/main/java/com/lkf/nacos/GatewayServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-alibaba/lkf-cloud-nacos/src/main/java/com/lkf/nacos/GatewayServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-alibaba/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-alibaba/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-git/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-git/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-git/src/main/java/com/lkf/GitConfigApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-git/src/main/java/com/lkf/GitConfigApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-git/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-git/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-jdbc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-jdbc/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-jdbc/src/main/java/com/lkf/JdbcConfigApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-jdbc/src/main/java/com/lkf/JdbcConfigApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-jdbc/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-jdbc/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-jdbc/src/main/resources/properties.sql" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-jdbc/src/main/resources/properties.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-mongo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-mongo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-mongo/src/main/java/com/lkf/server/config/repository/MongoConfigApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-mongo/src/main/java/com/lkf/server/config/repository/MongoConfigApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-mongo/src/main/java/com/lkf/server/config/repository/MongoEnvironment.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-mongo/src/main/java/com/lkf/server/config/repository/MongoEnvironment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-mongo/src/main/java/com/lkf/server/config/repository/MongoEnvironmentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-mongo/src/main/java/com/lkf/server/config/repository/MongoEnvironmentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-mongo/src/main/java/com/lkf/server/config/repository/MongoEnvironmentRepositoryConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-mongo/src/main/java/com/lkf/server/config/repository/MongoEnvironmentRepositoryConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-mongo/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-mongo/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-mongo/src/main/resources/mongo_config.json2" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-mongo/src/main/resources/mongo_config.json2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-config/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-eureka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-eureka/src/main/java/com/lkf/EurekaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-eureka/src/main/java/com/lkf/EurekaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-eureka/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-eureka/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-eureka/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-eureka/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-eureka/src/test/java/com/lkf/LkfCloudEurekaApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-eureka/src/test/java/com/lkf/LkfCloudEurekaApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/filter/RequestBodyToRequestUriGatewayFilterFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/filter/RequestBodyToRequestUriGatewayFilterFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/config/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/config/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/config/CmpErrorHandlerAutoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/config/CmpErrorHandlerAutoConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/config/CmpGatewayAutoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/config/CmpGatewayAutoConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/config/CmpGatewayProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/config/CmpGatewayProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/exception/CmpGatewayExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/exception/CmpGatewayExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/exception/JsonExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/exception/JsonExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/filter/AuthorizeFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/filter/AuthorizeFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/filter/AuthorizeGatewayFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/filter/AuthorizeGatewayFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/filter/AuthorizeGatewayFilterFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/filter/AuthorizeGatewayFilterFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/filter/GatewayLoggingGlobalFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/filter/GatewayLoggingGlobalFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/filter/RequestRedirectGatewayFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/filter/RequestRedirectGatewayFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/repository/MongoRouteDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/repository/MongoRouteDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/repository/MongoRouteDefinitionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/repository/MongoRouteDefinitionRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/resources/config/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/resources/config/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/resources/config/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/resources/config/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-gateway/user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/user-service/src/main/java/com/lkf/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-gateway/user-service/src/main/java/com/lkf/UserApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/user-service/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-gateway/user-service/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-mapstruct/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-mapstruct/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/java/com/lkf/mapstruct/MapstructApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/java/com/lkf/mapstruct/MapstructApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/java/com/lkf/mapstruct/controller/EmployeesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/java/com/lkf/mapstruct/controller/EmployeesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/java/com/lkf/mapstruct/dao/EmployeesDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/java/com/lkf/mapstruct/dao/EmployeesDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/java/com/lkf/mapstruct/entity/EmployeesBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/java/com/lkf/mapstruct/entity/EmployeesBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/java/com/lkf/mapstruct/entity/EmployeesPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/java/com/lkf/mapstruct/entity/EmployeesPO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/java/com/lkf/mapstruct/service/EmployeesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/java/com/lkf/mapstruct/service/EmployeesService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/java/com/lkf/mapstruct/service/dto/EmployeesDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/java/com/lkf/mapstruct/service/dto/EmployeesDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/java/com/lkf/mapstruct/service/impl/EmployeesServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/java/com/lkf/mapstruct/service/impl/EmployeesServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/java/com/lkf/mapstruct/service/mapper/EmployeesMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/java/com/lkf/mapstruct/service/mapper/EmployeesMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/resources/mapper/EmployeesMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/resources/mapper/EmployeesMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-okhttp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-okhttp/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-okhttp/src/main/java/com/lkf/OkHttp3Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-okhttp/src/main/java/com/lkf/OkHttp3Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-okhttp/src/main/java/com/lkf/OkHttpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-okhttp/src/main/java/com/lkf/OkHttpUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-client/src/main/java/com/lkf/client/config/FeginClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-client/src/main/java/com/lkf/client/config/FeginClientApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-client/src/main/java/com/lkf/client/config/FeginClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-client/src/main/java/com/lkf/client/config/FeginClientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-client/src/main/resources/config/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-client/src/main/resources/config/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/client/src/main/java/com/lkf/server/fegin/FeginRequestInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/client/src/main/java/com/lkf/server/fegin/FeginRequestInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/client/src/main/java/com/lkf/server/fegin/FeignOkHttpConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/client/src/main/java/com/lkf/server/fegin/FeignOkHttpConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/client/src/main/java/com/lkf/server/fegin/OkHttpInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/client/src/main/java/com/lkf/server/fegin/OkHttpInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/client/src/main/java/com/lkf/server/fegin/UserControllerFegin.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/client/src/main/java/com/lkf/server/fegin/UserControllerFegin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/rest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/rest/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/rest/src/main/java/com/lkf/server/config/FeginServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/rest/src/main/java/com/lkf/server/config/FeginServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/rest/src/main/java/com/lkf/server/config/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/rest/src/main/java/com/lkf/server/config/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/rest/src/main/resources/config/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/rest/src/main/resources/config/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/rest/src/main/resources/config/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/rest/src/main/resources/config/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-openfegin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-spring/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/aop/LogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/aop/LogAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/aop/Spring5Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/aop/Spring5Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/aop/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/aop/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/aop/jdkproxy/JdkProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/aop/jdkproxy/JdkProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/aop/jdkproxy/UserManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/aop/jdkproxy/UserManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/aop/jdkproxy/UserManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/aop/jdkproxy/UserManagerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/validation/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/validation/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/validation/GlobalExceptionHandler2.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/validation/GlobalExceptionHandler2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/validation/ParamValidatorUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/validation/ParamValidatorUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/validation/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/validation/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/validation/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/validation/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/validation/ValidateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/validation/ValidateUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/validation/ValidationResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/validation/ValidationResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/validation/ValidatorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/validation/ValidatorConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/validation/ValidatorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/validation/ValidatorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-spring/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-validation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-validation/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-validation/src/main/java/com/lkf/validation/ValidationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-validation/src/main/java/com/lkf/validation/ValidationApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-validation/src/main/java/com/lkf/validation/controller/EmployeesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-validation/src/main/java/com/lkf/validation/controller/EmployeesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-validation/src/main/java/com/lkf/validation/dao/EmployeesDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-validation/src/main/java/com/lkf/validation/dao/EmployeesDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-validation/src/main/java/com/lkf/validation/entity/EmployeesBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-validation/src/main/java/com/lkf/validation/entity/EmployeesBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-validation/src/main/java/com/lkf/validation/entity/EmployeesPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-validation/src/main/java/com/lkf/validation/entity/EmployeesPO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-validation/src/main/java/com/lkf/validation/service/EmployeesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-validation/src/main/java/com/lkf/validation/service/EmployeesService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-validation/src/main/java/com/lkf/validation/service/dto/EmployeesDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-validation/src/main/java/com/lkf/validation/service/dto/EmployeesDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-validation/src/main/java/com/lkf/validation/service/impl/EmployeesServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-validation/src/main/java/com/lkf/validation/service/impl/EmployeesServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-validation/src/main/java/com/lkf/validation/service/mapper/EmployeesMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-validation/src/main/java/com/lkf/validation/service/mapper/EmployeesMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-validation/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-validation/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-validation/src/main/resources/mapper/EmployeesMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-validation/src/main/resources/mapper/EmployeesMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-webflux/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-webflux/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/src/main/java/com/lkf/config/MongoDbFactoryConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/src/main/java/com/lkf/config/MongoDbFactoryConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/src/main/java/com/lkf/config/MongoSettingsProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/src/main/java/com/lkf/config/MongoSettingsProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/src/main/java/com/lkf/config/ReactiveMongoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/src/main/java/com/lkf/config/ReactiveMongoConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/src/main/java/com/lkf/controller/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/src/main/java/com/lkf/controller/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/src/main/java/com/lkf/controller/LogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-mongo/src/main/java/com/lkf/controller/LogController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-web/src/main/java/com/lkf/controller/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-web/src/main/java/com/lkf/controller/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-web/src/main/java/com/lkf/controller/LogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-cloud-webflux/webflux-web/src/main/java/com/lkf/controller/LogController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-cloud.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-eureka-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-eureka-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-eureka-client/src/main/java/com/lkf/EurekaClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-eureka-client/src/main/java/com/lkf/EurekaClientApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-eureka-client/src/main/java/com/lkf/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-eureka-client/src/main/java/com/lkf/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-eureka-client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-eureka-client/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-eureka-client/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-eureka-client/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lkf-eureka-client/src/test/java/com/lkf/EurekaClientApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/lkf-eureka-client/src/test/java/com/lkf/EurekaClientApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-admin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-admin/src/main/java/com/lkf/SpringBootAdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-admin/src/main/java/com/lkf/SpringBootAdminApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-admin/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-admin/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-admin/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-admin/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-admin/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-alibaba/lkf-cloud-nacos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-alibaba/lkf-cloud-nacos/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-alibaba/lkf-cloud-nacos/src/main/java/com/lkf/nacos/GatewayServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-alibaba/lkf-cloud-nacos/src/main/java/com/lkf/nacos/GatewayServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-alibaba/lkf-cloud-nacos/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-alibaba/lkf-cloud-nacos/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-alibaba/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-alibaba/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-git/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-config/lkf-cloud-config-git/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-git/src/main/java/com/lkf/GitConfigApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-config/lkf-cloud-config-git/src/main/java/com/lkf/GitConfigApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-git/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-config/lkf-cloud-config-git/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-git/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-config/lkf-cloud-config-git/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-jdbc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-config/lkf-cloud-config-jdbc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-jdbc/src/main/java/com/lkf/JdbcConfigApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-config/lkf-cloud-config-jdbc/src/main/java/com/lkf/JdbcConfigApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-jdbc/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-config/lkf-cloud-config-jdbc/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-jdbc/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-config/lkf-cloud-config-jdbc/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-jdbc/src/main/resources/properties.sql" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-config/lkf-cloud-config-jdbc/src/main/resources/properties.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-mongo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-config/lkf-cloud-config-mongo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-mongo/src/main/java/com/lkf/server/config/repository/MongoConfigApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-config/lkf-cloud-config-mongo/src/main/java/com/lkf/server/config/repository/MongoConfigApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-mongo/src/main/java/com/lkf/server/config/repository/MongoEnvironment.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-config/lkf-cloud-config-mongo/src/main/java/com/lkf/server/config/repository/MongoEnvironment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-mongo/src/main/java/com/lkf/server/config/repository/MongoEnvironmentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-config/lkf-cloud-config-mongo/src/main/java/com/lkf/server/config/repository/MongoEnvironmentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-mongo/src/main/java/com/lkf/server/config/repository/MongoEnvironmentRepositoryConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-config/lkf-cloud-config-mongo/src/main/java/com/lkf/server/config/repository/MongoEnvironmentRepositoryConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-mongo/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-config/lkf-cloud-config-mongo/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/lkf-cloud-config-mongo/src/main/resources/mongo_config.json2" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-config/lkf-cloud-config-mongo/src/main/resources/mongo_config.json2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-config/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-eureka/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-eureka/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-eureka/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-eureka/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-eureka/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-eureka/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-eureka/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-eureka/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-eureka/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-eureka/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-eureka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-eureka/src/main/java/com/lkf/EurekaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-eureka/src/main/java/com/lkf/EurekaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-eureka/src/main/resources/application-client.properties" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-eureka/src/main/resources/application-client.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-eureka/src/main/resources/application-instance.properties" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-eureka/src/main/resources/application-instance.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-eureka/src/main/resources/application-server.properties" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-eureka/src/main/resources/application-server.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-eureka/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-eureka/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-eureka/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-eureka/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-eureka/src/test/java/com/lkf/LkfCloudEurekaApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-eureka/src/test/java/com/lkf/LkfCloudEurekaApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-gateway/gateway-server/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-gateway/gateway-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/filter/RequestBodyToRequestUriGatewayFilterFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-gateway/gateway-server/src/main/java/com/lkf/filter/RequestBodyToRequestUriGatewayFilterFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/config/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/config/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/config/CmpErrorHandlerAutoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/config/CmpErrorHandlerAutoConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/config/CmpGatewayAutoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/config/CmpGatewayAutoConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/config/CmpGatewayProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/config/CmpGatewayProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/exception/CmpGatewayExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/exception/CmpGatewayExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/exception/JsonExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/exception/JsonExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/filter/AuthorizeFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/filter/AuthorizeFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/filter/AuthorizeGatewayFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/filter/AuthorizeGatewayFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/filter/AuthorizeGatewayFilterFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/filter/AuthorizeGatewayFilterFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/filter/GatewayLoggingGlobalFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/filter/GatewayLoggingGlobalFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/filter/RequestRedirectGatewayFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/filter/RequestRedirectGatewayFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/repository/MongoRouteDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/repository/MongoRouteDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/repository/MongoRouteDefinitionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-gateway/gateway-server/src/main/java/com/lkf/gateway/repository/MongoRouteDefinitionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-gateway/gateway-server/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/resources/config/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-gateway/gateway-server/src/main/resources/config/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/resources/config/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-gateway/gateway-server/src/main/resources/config/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/gateway-server/src/main/resources/config/mongo" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-gateway/gateway-server/src/main/resources/config/mongo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-gateway/user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/user-service/src/main/java/com/lkf/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-gateway/user-service/src/main/java/com/lkf/UserApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-gateway/user-service/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-gateway/user-service/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-mapstruct/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-mapstruct/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/java/com/lkf/mapstruct/MapstructApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-mapstruct/src/main/java/com/lkf/mapstruct/MapstructApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/java/com/lkf/mapstruct/controller/EmployeesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-mapstruct/src/main/java/com/lkf/mapstruct/controller/EmployeesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/java/com/lkf/mapstruct/dao/EmployeesDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-mapstruct/src/main/java/com/lkf/mapstruct/dao/EmployeesDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/java/com/lkf/mapstruct/entity/EmployeesBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-mapstruct/src/main/java/com/lkf/mapstruct/entity/EmployeesBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/java/com/lkf/mapstruct/entity/EmployeesPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-mapstruct/src/main/java/com/lkf/mapstruct/entity/EmployeesPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/java/com/lkf/mapstruct/service/EmployeesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-mapstruct/src/main/java/com/lkf/mapstruct/service/EmployeesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/java/com/lkf/mapstruct/service/dto/EmployeesDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-mapstruct/src/main/java/com/lkf/mapstruct/service/dto/EmployeesDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/java/com/lkf/mapstruct/service/impl/EmployeesServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-mapstruct/src/main/java/com/lkf/mapstruct/service/impl/EmployeesServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/java/com/lkf/mapstruct/service/mapper/EmployeesMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-mapstruct/src/main/java/com/lkf/mapstruct/service/mapper/EmployeesMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-mapstruct/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-mapstruct/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-mapstruct/src/main/resources/mapper/EmployeesMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-mapstruct/src/main/resources/mapper/EmployeesMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-mapstruct/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-mapstruct/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-mapstruct/target/classes/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-mapstruct/target/classes/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-mapstruct/target/classes/mapper/EmployeesMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-mapstruct/target/classes/mapper/EmployeesMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-mapstruct/target/generated-sources/annotations/com/lkf/validation/service/mapper/EmployeesMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-mapstruct/target/generated-sources/annotations/com/lkf/validation/service/mapper/EmployeesMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-okhttp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-okhttp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-okhttp/src/main/java/com/lkf/OkHttp3Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-okhttp/src/main/java/com/lkf/OkHttp3Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-okhttp/src/main/java/com/lkf/OkHttpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-okhttp/src/main/java/com/lkf/OkHttpUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-openfegin/fegin-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-client/src/main/java/com/lkf/client/config/FeginClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-openfegin/fegin-client/src/main/java/com/lkf/client/config/FeginClientApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-client/src/main/java/com/lkf/client/config/FeginClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-openfegin/fegin-client/src/main/java/com/lkf/client/config/FeginClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-client/src/main/resources/config/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-openfegin/fegin-client/src/main/resources/config/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-client/src/main/resources/config/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-openfegin/fegin-client/src/main/resources/config/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-openfegin/fegin-server/client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/client/src/main/java/com/lkf/server/fegin/FeginRequestInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-openfegin/fegin-server/client/src/main/java/com/lkf/server/fegin/FeginRequestInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/client/src/main/java/com/lkf/server/fegin/FeignOkHttpConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-openfegin/fegin-server/client/src/main/java/com/lkf/server/fegin/FeignOkHttpConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/client/src/main/java/com/lkf/server/fegin/OkHttpInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-openfegin/fegin-server/client/src/main/java/com/lkf/server/fegin/OkHttpInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/client/src/main/java/com/lkf/server/fegin/UserControllerFegin.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-openfegin/fegin-server/client/src/main/java/com/lkf/server/fegin/UserControllerFegin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-openfegin/fegin-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/rest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-openfegin/fegin-server/rest/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/rest/src/main/java/com/lkf/server/config/FeginServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-openfegin/fegin-server/rest/src/main/java/com/lkf/server/config/FeginServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/rest/src/main/java/com/lkf/server/config/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-openfegin/fegin-server/rest/src/main/java/com/lkf/server/config/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/rest/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-openfegin/fegin-server/rest/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/rest/src/main/resources/config/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-openfegin/fegin-server/rest/src/main/resources/config/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/fegin-server/rest/src/main/resources/config/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-openfegin/fegin-server/rest/src/main/resources/config/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-openfegin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-openfegin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-spring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/aop/LogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-spring/src/main/java/com/lkf/aop/LogAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/aop/Spring5Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-spring/src/main/java/com/lkf/aop/Spring5Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/aop/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-spring/src/main/java/com/lkf/aop/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/aop/jdkproxy/JdkProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-spring/src/main/java/com/lkf/aop/jdkproxy/JdkProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/aop/jdkproxy/UserManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-spring/src/main/java/com/lkf/aop/jdkproxy/UserManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/aop/jdkproxy/UserManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-spring/src/main/java/com/lkf/aop/jdkproxy/UserManagerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/validation/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-spring/src/main/java/com/lkf/validation/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/validation/GlobalExceptionHandler2.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-spring/src/main/java/com/lkf/validation/GlobalExceptionHandler2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/validation/ParamValidatorUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-spring/src/main/java/com/lkf/validation/ParamValidatorUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/validation/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-spring/src/main/java/com/lkf/validation/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/validation/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-spring/src/main/java/com/lkf/validation/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/validation/ValidateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-spring/src/main/java/com/lkf/validation/ValidateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/validation/ValidationResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-spring/src/main/java/com/lkf/validation/ValidationResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/validation/ValidatorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-spring/src/main/java/com/lkf/validation/ValidatorConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/java/com/lkf/validation/ValidatorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-spring/src/main/java/com/lkf/validation/ValidatorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-spring/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-spring/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-spring/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-validation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-validation/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-validation/src/main/java/com/lkf/validation/ValidationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-validation/src/main/java/com/lkf/validation/ValidationApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-validation/src/main/java/com/lkf/validation/controller/EmployeesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-validation/src/main/java/com/lkf/validation/controller/EmployeesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-validation/src/main/java/com/lkf/validation/dao/EmployeesDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-validation/src/main/java/com/lkf/validation/dao/EmployeesDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-validation/src/main/java/com/lkf/validation/entity/EmployeesBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-validation/src/main/java/com/lkf/validation/entity/EmployeesBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-validation/src/main/java/com/lkf/validation/entity/EmployeesPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-validation/src/main/java/com/lkf/validation/entity/EmployeesPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-validation/src/main/java/com/lkf/validation/service/EmployeesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-validation/src/main/java/com/lkf/validation/service/EmployeesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-validation/src/main/java/com/lkf/validation/service/dto/EmployeesDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-validation/src/main/java/com/lkf/validation/service/dto/EmployeesDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-validation/src/main/java/com/lkf/validation/service/impl/EmployeesServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-validation/src/main/java/com/lkf/validation/service/impl/EmployeesServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-validation/src/main/java/com/lkf/validation/service/mapper/EmployeesMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-validation/src/main/java/com/lkf/validation/service/mapper/EmployeesMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-validation/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-validation/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-validation/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-validation/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lkf-cloud-validation/src/main/resources/mapper/EmployeesMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/scbm-cloud-validation/src/main/resources/mapper/EmployeesMapper.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -328,6 +325,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gateway-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.scbm.gateway.config.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="webflux-mongo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.scbm.controller.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="webflux-mongo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lkf.controller.Application" />
@@ -335,16 +346,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EurekaApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="scbm-cloud-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.scbm.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="lkf-cloud-eureka" />
+      <module name="scbm-cloud-eureka" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lkf.EurekaApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EurekaClientApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="scbm-eureka-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.scbm.EurekaClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="lkf-eureka-client" />
+      <module name="scbm-eureka-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lkf.EurekaClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FeginClientApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="fegin-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.scbm.client.config.FeginClientApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -352,6 +384,13 @@
     <configuration name="FeginClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="fegin-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lkf.client.config.FeginClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FeginServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="fegin-server-rest" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.scbm.server.config.FeginServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -378,8 +417,15 @@
       </method>
     </configuration>
     <configuration name="LkfCloudGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="lkf-cloud-gateway" />
+      <module name="scbm-cloud-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lkf.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapstructApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="scbm-cloud-mapstruct" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.scbm.validation.MapstructApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -404,6 +450,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spring5Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="scbm-cloud-spring" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.scbm.aop.Spring5Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Spring5Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="lkf-cloud-spring" />
       <extension name="coverage">
@@ -417,9 +470,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringBootAdminApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="scbm-cloud-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.scbm.SpringBootAdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringBootAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="lkf-cloud-admin" />
+      <module name="scbm-cloud-admin" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lkf.SpringBootAdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.scbm.UserApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -510,7 +577,7 @@
       <workItem from="1590557595094" duration="12122000" />
       <workItem from="1592473316398" duration="68000" />
       <workItem from="1592473465407" duration="396000" />
-      <workItem from="1592795767564" duration="1004000" />
+      <workItem from="1592795767564" duration="1662000" />
     </task>
     <task id="LOCAL-00001" summary="spring boot、spring cloud 版本升级；新增 webflux；">
       <created>1585713293219</created>
@@ -568,7 +635,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590573142198</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="修改项目名称及命名空间">
+      <created>1592796879618</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1592796879618</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -595,7 +669,8 @@
     <MESSAGE value="代码提交" />
     <MESSAGE value="mapstruct 对象映射框架尝试" />
     <MESSAGE value="mapstruct 使用undertow替换tomcat" />
-    <option name="LAST_COMMIT_MESSAGE" value="mapstruct 使用undertow替换tomcat" />
+    <MESSAGE value="修改项目名称及命名空间" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改项目名称及命名空间" />
   </component>
   <component name="masterDetails">
     <states>
