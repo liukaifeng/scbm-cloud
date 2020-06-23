@@ -27,3 +27,7 @@ hs_err_pid*
 
 *.iml
 
+@project.log.prefix@/
+scbm-cloud-admin/target/
+scbm-cloud-openfegin/fegin-client/target/
+scbm-cloud-openfegin/fegin-server/rest/target/
