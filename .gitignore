@@ -31,3 +31,4 @@ hs_err_pid*
 scbm-cloud-admin/target/
 scbm-cloud-openfegin/fegin-client/target/
 scbm-cloud-openfegin/fegin-server/rest/target/
+/.idea/

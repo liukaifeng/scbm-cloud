@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 
-<mapper namespace="com.lkf.validation.dao.EmployeesDao">
+<mapper namespace="com.scbm.validation.dao.EmployeesDao">
     <!--查询雇员信息-->
     <select id="selectEmployees" parameterType="employeesPO" resultType="employeesPO">
         SELECT emp_no,birth_date,first_name,last_name,gender,hire_date FROM employees
